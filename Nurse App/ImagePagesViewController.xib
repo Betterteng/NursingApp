@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImagePagesViewController">
+            <connections>
+                <outlet property="pageImageView" destination="dGc-Sz-K1L" id="NUg-pj-s98"/>
+                <outlet property="rhythmLargeImageView" destination="eLD-oB-i1e" id="UWD-DZ-uZj"/>
+                <outlet property="rhythmLargeView" destination="zod-Wd-TPA" id="xYk-up-qCU"/>
+                <outlet property="rhythmTableView" destination="dGh-iW-PIH" id="8Vz-rH-HNJ"/>
+                <outlet property="scrollView" destination="LUM-IA-tEv" id="vl1-qg-ifb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dGh-iW-PIH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="O5b-yu-dCs"/>
+                        <outlet property="delegate" destination="-1" id="Yoq-5U-8jg"/>
+                    </connections>
+                </tableView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUM-IA-tEv">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dGc-Sz-K1L">
+                            <rect key="frame" x="19" y="79" width="282" height="412"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="dGc-Sz-K1L" firstAttribute="centerY" secondItem="LUM-IA-tEv" secondAttribute="centerY" constant="1" id="9Ar-Aq-czd"/>
+                        <constraint firstItem="dGc-Sz-K1L" firstAttribute="leading" secondItem="LUM-IA-tEv" secondAttribute="leadingMargin" constant="11" id="EQE-W8-s5i"/>
+                        <constraint firstItem="dGc-Sz-K1L" firstAttribute="centerX" secondItem="LUM-IA-tEv" secondAttribute="centerX" id="L8c-Fn-49S"/>
+                        <constraint firstItem="dGc-Sz-K1L" firstAttribute="top" secondItem="LUM-IA-tEv" secondAttribute="topMargin" constant="71" id="MQQ-Nf-DZX"/>
+                        <constraint firstAttribute="trailingMargin" secondItem="dGc-Sz-K1L" secondAttribute="trailing" constant="11" id="sts-L8-6VI"/>
+                        <constraint firstAttribute="bottomMargin" secondItem="dGc-Sz-K1L" secondAttribute="bottom" constant="69" id="zq1-1c-AsR"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dGh-iW-PIH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CLI-Y2-x41"/>
+                <constraint firstAttribute="bottom" secondItem="dGh-iW-PIH" secondAttribute="bottom" id="FvB-xg-rop"/>
+                <constraint firstItem="LUM-IA-tEv" firstAttribute="bottom" secondItem="dGh-iW-PIH" secondAttribute="bottom" id="Jus-ZH-7xF"/>
+                <constraint firstItem="LUM-IA-tEv" firstAttribute="trailing" secondItem="dGh-iW-PIH" secondAttribute="trailing" id="R4q-KN-eqx"/>
+                <constraint firstItem="LUM-IA-tEv" firstAttribute="top" secondItem="dGh-iW-PIH" secondAttribute="top" id="VLO-eL-Dbo"/>
+                <constraint firstAttribute="trailing" secondItem="dGh-iW-PIH" secondAttribute="trailing" id="fyY-Yr-vvN"/>
+                <constraint firstItem="dGh-iW-PIH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hvn-Mo-w8u"/>
+                <constraint firstItem="dGh-iW-PIH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ndN-gc-f3v"/>
+                <constraint firstItem="dGh-iW-PIH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qf7-vm-hKW"/>
+                <constraint firstItem="LUM-IA-tEv" firstAttribute="leading" secondItem="dGh-iW-PIH" secondAttribute="leading" id="tQV-AA-Qme"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="404" y="24"/>
+        </view>
+        <view contentMode="scaleToFill" id="zod-Wd-TPA">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eLD-oB-i1e">
+                    <rect key="frame" x="21" y="119" width="278" height="330"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eLD-oB-i1e" firstAttribute="top" secondItem="zod-Wd-TPA" secondAttribute="top" constant="119" id="67V-Cl-DfR"/>
+                <constraint firstItem="eLD-oB-i1e" firstAttribute="leading" secondItem="zod-Wd-TPA" secondAttribute="leading" constant="21" id="WrU-4j-nhk"/>
+                <constraint firstAttribute="bottom" secondItem="eLD-oB-i1e" secondAttribute="bottom" constant="119" id="baB-UE-1th"/>
+                <constraint firstAttribute="trailing" secondItem="eLD-oB-i1e" secondAttribute="trailing" constant="21" id="qvk-sw-liq"/>
+                <constraint firstItem="eLD-oB-i1e" firstAttribute="centerY" secondItem="zod-Wd-TPA" secondAttribute="centerY" id="sJS-41-ieP"/>
+                <constraint firstItem="eLD-oB-i1e" firstAttribute="centerX" secondItem="zod-Wd-TPA" secondAttribute="centerX" id="uqd-An-btC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="785" y="24"/>
+        </view>
+    </objects>
+</document>

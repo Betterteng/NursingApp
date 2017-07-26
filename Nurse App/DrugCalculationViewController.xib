@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrugCalculationViewController">
+            <connections>
+                <outlet property="PickerViewOuterView" destination="atr-bD-Thn" id="DMw-17-TJw"/>
+                <outlet property="UnitsPickerView" destination="071-9U-1jj" id="Soa-0F-TIJ"/>
+                <outlet property="drugCalculationTableview" destination="PIM-xi-9LO" id="Bvw-1K-IiC"/>
+                <outlet property="scrollView" destination="rbE-iq-iIO" id="85t-cA-0CP"/>
+                <outlet property="tableviewOuterView" destination="g3x-db-BMX" id="jAy-zz-B3C"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbE-iq-iIO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-db-BMX">
+                            <rect key="frame" x="26" y="21" width="363" height="470"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PIM-xi-9LO">
+                                    <rect key="frame" x="0.0" y="0.0" width="363" height="470"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="mDP-Uu-8GA"/>
+                                        <outlet property="delegate" destination="-1" id="kWW-gD-39V"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="470" id="0ev-2n-QmG"/>
+                                <constraint firstAttribute="trailing" secondItem="PIM-xi-9LO" secondAttribute="trailing" id="ElH-8H-htc"/>
+                                <constraint firstItem="PIM-xi-9LO" firstAttribute="leading" secondItem="g3x-db-BMX" secondAttribute="leading" id="LhC-R3-acU"/>
+                                <constraint firstItem="PIM-xi-9LO" firstAttribute="top" secondItem="g3x-db-BMX" secondAttribute="top" id="RZa-TK-Ytq"/>
+                                <constraint firstAttribute="bottom" secondItem="PIM-xi-9LO" secondAttribute="bottom" id="YgG-YN-eNQ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="g3x-db-BMX" firstAttribute="top" secondItem="rbE-iq-iIO" secondAttribute="top" constant="21" id="9JH-90-yuR"/>
+                        <constraint firstAttribute="bottom" secondItem="g3x-db-BMX" secondAttribute="bottom" constant="225" id="H4V-ej-xsm"/>
+                        <constraint firstItem="g3x-db-BMX" firstAttribute="centerX" secondItem="rbE-iq-iIO" secondAttribute="centerX" id="Xzi-rx-QNt"/>
+                        <constraint firstAttribute="trailing" secondItem="g3x-db-BMX" secondAttribute="trailing" constant="25" id="c16-Dp-xKE"/>
+                        <constraint firstItem="g3x-db-BMX" firstAttribute="leading" secondItem="rbE-iq-iIO" secondAttribute="leading" constant="26" id="lFG-UU-wf6"/>
+                    </constraints>
+                </scrollView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atr-bD-Thn">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                    <subviews>
+                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZF4-4S-L40">
+                            <rect key="frame" x="0.0" y="525" width="414" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="chl-bS-RGV"/>
+                            </constraints>
+                            <items>
+                                <barButtonItem systemItem="cancel" id="vr1-Hq-e52">
+                                    <connections>
+                                        <action selector="pickerCancelButtonCliked:" destination="-1" id="hnX-jX-4zt"/>
+                                    </connections>
+                                </barButtonItem>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="SmL-Pv-BuA"/>
+                                <barButtonItem title="Done" id="Zjg-3r-1Dk">
+                                    <connections>
+                                        <action selector="pickerDoneButtonClicked:" destination="-1" id="HpC-Lo-vPa"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="071-9U-1jj">
+                            <rect key="frame" x="0.0" y="569" width="414" height="118"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="118" id="ubH-T1-Rjf"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="10T-ZA-L58"/>
+                                <outlet property="delegate" destination="-1" id="W26-4h-G0O"/>
+                            </connections>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="071-9U-1jj" secondAttribute="trailing" id="3mq-6f-gce"/>
+                        <constraint firstItem="071-9U-1jj" firstAttribute="leading" secondItem="atr-bD-Thn" secondAttribute="leading" id="ION-7Y-nwI"/>
+                        <constraint firstAttribute="trailing" secondItem="ZF4-4S-L40" secondAttribute="trailing" id="O2r-N9-Doc"/>
+                        <constraint firstAttribute="bottom" secondItem="071-9U-1jj" secondAttribute="bottom" id="Yas-7U-j3J"/>
+                        <constraint firstItem="ZF4-4S-L40" firstAttribute="leading" secondItem="atr-bD-Thn" secondAttribute="leading" id="aBO-ts-Yjt"/>
+                        <constraint firstItem="071-9U-1jj" firstAttribute="top" secondItem="ZF4-4S-L40" secondAttribute="bottom" id="mQP-jN-7eu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rbE-iq-iIO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3PG-sL-owL"/>
+                <constraint firstItem="rbE-iq-iIO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Vc-Hz-OFr"/>
+                <constraint firstAttribute="bottom" secondItem="atr-bD-Thn" secondAttribute="bottom" constant="49" id="5xb-6S-WyV"/>
+                <constraint firstItem="atr-bD-Thn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PQk-Ef-aBw"/>
+                <constraint firstAttribute="trailing" secondItem="atr-bD-Thn" secondAttribute="trailing" id="RIJ-SO-ydk"/>
+                <constraint firstAttribute="trailing" secondItem="rbE-iq-iIO" secondAttribute="trailing" id="SBY-eQ-ekK"/>
+                <constraint firstItem="atr-bD-Thn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Wk1-lt-BrN"/>
+                <constraint firstAttribute="bottom" secondItem="rbE-iq-iIO" secondAttribute="bottom" id="rnZ-Wu-BDO"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="124" y="258"/>
+        </view>
+    </objects>
+</document>

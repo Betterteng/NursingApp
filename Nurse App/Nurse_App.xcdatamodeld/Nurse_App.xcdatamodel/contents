@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1605" minimumToolsVersion="Automatic">
+    <entity name="ChapterLockEntry" syncable="YES">
+        <attribute name="chapterno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="islock" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CPDEntry" syncable="YES">
+        <attribute name="entrydate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryduration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entrynotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryTimestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entrytitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Questions" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapterno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iscorrect" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="optiona" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="optionb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="optionc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="optiond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CPDEntry" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Questions" positionX="-63" positionY="18" width="128" height="195"/>
+        <element name="ChapterLockEntry" positionX="-63" positionY="72" width="128" height="75"/>
+    </elements>
+</model>

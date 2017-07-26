@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DripRatesViewController">
+            <connections>
+                <outlet property="PickerViewOuterView" destination="HDR-Dl-467" id="Mta-lk-aJy"/>
+                <outlet property="UnitsPickerView" destination="hrU-RB-UbN" id="xxG-rg-YRt"/>
+                <outlet property="dripratesTableview" destination="ZU7-ag-Zpn" id="oBV-OP-duP"/>
+                <outlet property="scrollView" destination="G9s-S0-L3f" id="EYx-DF-D1O"/>
+                <outlet property="tableviewOuterView" destination="FjO-rc-RoD" id="xBA-Zi-Fal"/>
+                <outlet property="view" destination="Vd2-2x-cnc" id="q08-uZ-7nI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Vd2-2x-cnc">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9s-S0-L3f">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjO-rc-RoD">
+                            <rect key="frame" x="26" y="21" width="363" height="470"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZU7-ag-Zpn">
+                                    <rect key="frame" x="0.0" y="0.0" width="363" height="470"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="APt-y5-MpO"/>
+                                        <outlet property="delegate" destination="-1" id="LTD-Dv-OZv"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="ZU7-ag-Zpn" firstAttribute="leading" secondItem="FjO-rc-RoD" secondAttribute="leading" id="TNK-p9-sEp"/>
+                                <constraint firstAttribute="trailing" secondItem="ZU7-ag-Zpn" secondAttribute="trailing" id="iHt-n9-W2e"/>
+                                <constraint firstAttribute="bottom" secondItem="ZU7-ag-Zpn" secondAttribute="bottom" id="kgD-Bm-om0"/>
+                                <constraint firstItem="ZU7-ag-Zpn" firstAttribute="top" secondItem="FjO-rc-RoD" secondAttribute="top" id="ogo-AB-fC9"/>
+                                <constraint firstAttribute="height" constant="470" id="v7s-1I-te5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FjO-rc-RoD" firstAttribute="centerX" secondItem="G9s-S0-L3f" secondAttribute="centerX" id="itT-J2-lQ1"/>
+                        <constraint firstAttribute="trailing" secondItem="FjO-rc-RoD" secondAttribute="trailing" constant="25" id="m1Q-5i-Bfc"/>
+                        <constraint firstItem="FjO-rc-RoD" firstAttribute="leading" secondItem="G9s-S0-L3f" secondAttribute="leading" constant="26" id="mIC-Ih-Iyn"/>
+                        <constraint firstItem="FjO-rc-RoD" firstAttribute="top" secondItem="G9s-S0-L3f" secondAttribute="top" constant="21" id="xXI-ea-I6k"/>
+                        <constraint firstAttribute="bottom" secondItem="FjO-rc-RoD" secondAttribute="bottom" constant="225" id="xp2-4t-hdx"/>
+                    </constraints>
+                </scrollView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HDR-Dl-467">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrU-RB-UbN">
+                            <rect key="frame" x="0.0" y="569" width="414" height="118"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="118" id="eQw-n3-IGU"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="DcW-9e-H0L"/>
+                                <outlet property="delegate" destination="-1" id="yhw-Y5-hXn"/>
+                            </connections>
+                        </pickerView>
+                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oy1-Ef-EPV">
+                            <rect key="frame" x="0.0" y="525" width="414" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="1Mp-FI-Sp5"/>
+                            </constraints>
+                            <items>
+                                <barButtonItem systemItem="cancel" id="ZVp-k5-uzT">
+                                    <connections>
+                                        <action selector="pickerCancelButtonCliked:" destination="-1" id="7Kt-pr-0Ph"/>
+                                    </connections>
+                                </barButtonItem>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="w7i-jJ-L9N"/>
+                                <barButtonItem title="Done" id="qFd-GO-EWH">
+                                    <connections>
+                                        <action selector="pickerDoneButtonClicked:" destination="-1" id="2dT-OB-VIf"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="hrU-RB-UbN" firstAttribute="top" secondItem="oy1-Ef-EPV" secondAttribute="bottom" id="2RA-D7-8CB"/>
+                        <constraint firstItem="oy1-Ef-EPV" firstAttribute="leading" secondItem="HDR-Dl-467" secondAttribute="leading" id="LaU-Pb-kyZ"/>
+                        <constraint firstAttribute="trailing" secondItem="oy1-Ef-EPV" secondAttribute="trailing" id="StK-KA-y0G"/>
+                        <constraint firstAttribute="trailing" secondItem="hrU-RB-UbN" secondAttribute="trailing" id="VG4-8b-vKH"/>
+                        <constraint firstAttribute="bottom" secondItem="hrU-RB-UbN" secondAttribute="bottom" id="bZK-BG-oVq"/>
+                        <constraint firstItem="hrU-RB-UbN" firstAttribute="leading" secondItem="HDR-Dl-467" secondAttribute="leading" id="hyf-fz-QMM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HDR-Dl-467" secondAttribute="trailing" id="1BF-27-fdA"/>
+                <constraint firstItem="G9s-S0-L3f" firstAttribute="leading" secondItem="Vd2-2x-cnc" secondAttribute="leading" id="Cmc-HD-JhK"/>
+                <constraint firstItem="HDR-Dl-467" firstAttribute="leading" secondItem="Vd2-2x-cnc" secondAttribute="leading" id="HPd-Cy-bEs"/>
+                <constraint firstItem="G9s-S0-L3f" firstAttribute="top" secondItem="Vd2-2x-cnc" secondAttribute="top" id="NAZ-RB-09K"/>
+                <constraint firstItem="HDR-Dl-467" firstAttribute="top" secondItem="Vd2-2x-cnc" secondAttribute="top" id="ZtX-gT-2YW"/>
+                <constraint firstAttribute="bottom" secondItem="G9s-S0-L3f" secondAttribute="bottom" id="nBH-Go-6de"/>
+                <constraint firstAttribute="trailing" secondItem="G9s-S0-L3f" secondAttribute="trailing" id="v26-Tx-Lkf"/>
+                <constraint firstAttribute="bottom" secondItem="HDR-Dl-467" secondAttribute="bottom" constant="49" id="wnn-pM-v0e"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+</document>

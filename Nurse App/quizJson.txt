@@ -1,0 +1,2246 @@
+{
+"QuizResult": {
+"Chapters": [
+{
+"Questions": {
+"questionid": "1",
+"chapterno": "1",
+"question": "You are asked why you are using you phone on the ward you reply.",
+"optiona": "Just checking my e-mail",
+"optionb": "looking at face book",
+"optionc": "instagram the last bowel action I saw,it was a whopper",
+"optiond": "using phone as a clinical resource",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "2",
+"chapterno": "1",
+"question": "You are asked if it is safe for you to use your phone on the ward you reply.",
+"optiona": "I have my phone in flight mode so it is safe and will not affect anything",
+"optionb": "Quickly stop texting and get back to the enema",
+"optionc": "Put the phone down and reluctantly resume the operation",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "3",
+"chapterno": "1",
+"question": "A rest in bed patient has a reddened area on her sacrum. Your management plan is avoid",
+"optiona": "Positioning the patient to avoid pressure on the area",
+"optionb": "Providing a pressure relieving mattress",
+"optionc": "Giving it a good hard rub",
+"optiond": "Ensuring second hourly pressure area care",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "4",
+"chapterno": "1",
+"question": "PVD stands for",
+"optiona": "Peripheral Vascular Disease",
+"optionb": "Pan Vascular Disease",
+"optionc": "Peri Vascular Disease",
+"optiond": "Puffy Vascular Disease",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "5",
+"chapterno": "1",
+"question": "You become concerned about a patient's urine output becoming oliguria when it drops below",
+"optiona": "20mL/hr",
+"optionb": "40mL/hr",
+"optionc": "30mL/hr",
+"optiond": "50mL/hr",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "6",
+"chapterno": "1",
+"question": "Obstruction to blood flow in the veins of the legs or pelvis is known as",
+"optiona": "PMT",
+"optionb": "PVD",
+"optionc": "DVT",
+"optiond": "EMD",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "7",
+"chapterno": "1",
+"question": "Using a pain scale helps to",
+"optiona": "Isolate pain",
+"optionb": "Characterise pain",
+"optionc": "Demonstrate pain",
+"optiond": "Quantify pain",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "8",
+"chapterno": "1",
+"question": "Skills and knowledge required for effective patient assessment are",
+"optiona": "Human relations skills",
+"optionb": "Knowledge of anatomy and physiology",
+"optionc": "Knowledge of pathophysiology",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "9",
+"chapterno": "1",
+"question": "Identify the four fundamental methods of patient assessment",
+"optiona": "Auscultation, palpation, percussion, inspection",
+"optionb": "Discussion, palpation, percussion, auscultation",
+"optionc": "Auscultation, touching, positioning, percussion",
+"optiond": "Listening, smelling, talking, thinking",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "10",
+"chapterno": "1",
+"question": "An example of subjective data would be",
+"optiona": "Temperature",
+"optionb": "Crying",
+"optionc": "Pain",
+"optiond": "Skin discolouration",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "11",
+"chapterno": "1",
+"question": "An example of constant data would be",
+"optiona": "Blood pressure",
+"optionb": "Date of birth",
+"optionc": "Temperature",
+"optiond": "SpO2",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "12",
+"chapterno": "1",
+"question": "Factors that affect blood pressure are",
+"optiona": "Stress",
+"optionb": "Disease",
+"optionc": "Medications",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "13",
+"chapterno": "1",
+"question": "Objective data gathered during the health assessment process would include",
+"optiona": "SpO2, temperature, heart rate, blood pressure, fashion status",
+"optionb": "Heart rate, blood pressure, SpO2, temperature, urinalysis",
+"optionc": "Blood pressure, SpO2, temperature, heart rate, personal hygiene",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "14",
+"chapterno": "1",
+"question": "Hyperpyrexia is defined as a temperature greater than",
+"optiona": "37.5",
+"optionb": "41",
+"optionc": "38.5",
+"optiond": "39",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "15",
+"chapterno": "1",
+"question": "Which of the following is not an infection control measure?",
+"optiona": "Hand washing",
+"optionb": "Aseptic technique",
+"optionc": "Equipment cleaning",
+"optiond": "None of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "16",
+"chapterno": "1",
+"question": "How many bpm is a normal heart rate?",
+"optiona": "60-100",
+"optionb": "70-100",
+"optionc": "80-100",
+"optiond": "60-120",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "17",
+"chapterno": "1",
+"question": "Tachypnoea is defined as a respiratory rate greater than",
+"optiona": "20",
+"optionb": "24",
+"optionc": "28",
+"optiond": "32",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "18",
+"chapterno": "1",
+"question": "Common signs and symptoms of hypoglycaemia",
+"optiona": "Pallor, headache, increased blood sugar, diaphoresis",
+"optionb": "Decreased blood sugar, seizure, confusion, diarrhoea",
+"optionc": "Irritability, confusion, hunger, increased blood sugar",
+"optiond": "Fatigue, dizziness, confusion, decreased blood sugar",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "19",
+"chapterno": "1",
+"question": "Common signs and symptoms of a seizure may include",
+"optiona": "Teeth grinding, unfelt injury, post ictal drowsiness",
+"optionb": "Aura, incontinence, conscious tonic/clonic movements",
+"optionc": "Sudden LOC, prodroma, prophetic visions",
+"optiond": "Dizziness, uncontrollable twitching, motor control",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "20",
+"chapterno": "1",
+"question": "To examine the adult ear canal and drum you would move the auricle",
+"optiona": "Down and sideways",
+"optionb": "Down and backward",
+"optionc": "Upward and backward",
+"optiond": "Sideway",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "21",
+"chapterno": "2",
+"question": "How many stages are there to a decubitus ulcer",
+"optiona": "5",
+"optionb": "6",
+"optionc": "4",
+"optiond": "3",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "22",
+"chapterno": "2",
+"question": "A patient presents with shortness of breath, itching, hives, a running nose and rash. Your immediate concern is the patient may be having",
+"optiona": "A heart attack",
+"optionb": "An allergic reaction",
+"optionc": "An asthma attack",
+"optiond": "None of the above ",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "23",
+"chapterno": "2",
+"question": "Small haemorrhagic areas of skin and mucous membrane are otherwise known as",
+"optiona": "Purapura",
+"optionb": "Ecchymosis",
+"optionc": "Petechiae",
+"optiond": "Hives",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "24",
+"chapterno": "2",
+"question": "Hearing S1 (lub) on heart auscultation corresponds to",
+"optiona": "Semilunar valves closing",
+"optionb": "Mitral and tricuspid valves closing",
+"optionc": "Semilunar valves opening, mitral and tricuspid closing",
+"optiond": "Aortic and pulmonary valves opening",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "25",
+"chapterno": "2",
+"question": "Altered levels of consciousness may manifest as I. Drowsiness  II. Confusion III. Obtundation  IV. Sustained alertness after stimulation V. Disorientation",
+"optiona": "I, II, III, IV",
+"optionb": "I, II, III, V",
+"optionc": "I, II, V",
+"optiond": "IV only",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "26",
+"chapterno": "2",
+"question": "Conditions that involve hormonal changes may affect body temperature",
+"optiona": "True",
+"optionb": "False",
+"optionc": "Maybe",
+"optiond": "None of Above",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "27",
+"chapterno": "2",
+"question": "There is a difference between an allergic reaction and anaphylaxis. Which of the following is not a definite sign of impendinganaphylaxis?",
+"optiona": "Conjunctivitis",
+"optionb": "Shock",
+"optionc": "Bronchoconstriction",
+"optiond": "Facial swelling",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "28",
+"chapterno": "2",
+"question": "Which ECG waveform corresponds to atrial depolarization?",
+"optiona": "t",
+"optionb": "q",
+"optionc": "p",
+"optiond": "u",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "29",
+"chapterno": "2",
+"question": "Resources available when gathering information regarding a patient's status may include. I. Family, friends, health professionals, medical records II. Friends, family, health professionals, the patient III. The patient, family, reruns of ER, health professionalsIV. Health professionals, the patient, ambulance reports, family",
+"optiona": "I,II",
+"optionb": "I,II,III",
+"optionc": "I,II,IV",
+"optiond": "all of the above",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "30",
+"chapterno": "2",
+"question": "Which responses does the Glasgow Coma Scale assess?",
+"optiona": "Best eye response, vital signs, best verbal response",
+"optionb": "Best verbal response, best eye response, best motor response",
+"optionc": "Eye movement, limb movement, orientation",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "31",
+"chapterno": "2",
+"question": "A second-degree burn is characterised by",
+"optiona": "Minor discomfort, blisters, fluid loss, scarring, partial thickness",
+"optionb": "Severe pain, fluid loss, blistering, swelling, partial thickness",
+"optionc": "Partial thickness, no pain, fluid loss, blisters, reddening",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "32",
+"chapterno": "2",
+"question": "Which observations would you anticipate in a patient with emergent hypoxia?",
+"optiona": "Increased HR, increased pallor, increased RR, decreased SpO2",
+"optionb": "Decreased HR, increased pallor, increased RR, increased SpO2",
+"optionc": "Increased HR, increased pallor, decreased RR, decreased SpO2",
+"optiond": "Increased HR, increased flushing, increased RR, decreased SpO2",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "33",
+"chapterno": "2",
+"question": "A cataract is opacity in the",
+"optiona": "Cornea",
+"optionb": "Lens",
+"optionc": "Conjunctiva",
+"optiond": "Pupil",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "34",
+"chapterno": "2",
+"question": "Where would you find the lacrimal apparatus?",
+"optiona": "The foot",
+"optionb": "The hand",
+"optionc": "The heart",
+"optiond": "The eye",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "35",
+"chapterno": "2",
+"question": "Burns may be caused by  I. Heat  II. Chemicals  III. Electricity  IV. Friction  V. Electromagnetic energy",
+"optiona": "I, II, III, IV",
+"optionb": "I, II, III",
+"optionc": "I, II, III, V",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "36",
+"chapterno": "3",
+"question": "Fluid and electrolyte imbalance is not a sign of",
+"optiona": "Sepsis",
+"optionb": "Cardiovascular shock",
+"optionc": "Carotid stenosis",
+"optiond": "Ketoacidosis",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "37",
+"chapterno": "3",
+"question": "Nerve communicating between the eye and the brain is the",
+"optiona": "Visual nerve",
+"optionb": "Optic nerve",
+"optionc": "Auditory nerve",
+"optiond": "Window to the world ",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "38",
+"chapterno": "3",
+"question": "Cheyne Stokes respirations are characterised by",
+"optiona": "lack of breathing",
+"optionb": "hyperventilation",
+"optionc": "sterterous breathing",
+"optiond": "alternating apnoea and hyperventilation",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "39",
+"chapterno": "3",
+"question": "Factors that affect heart rate are I. postural changes, temperature, exercise II. fever, dehydration, vagal stimulation III. fear, pain, shock IV. anxiety, cardiac event, hysteria ",
+"optiona": "I only",
+"optionb": "I, II, III",
+"optionc": "IV only",
+"optiond": "all of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "40",
+"chapterno": "3",
+"question": "Effective nurse patient communication arises from I. Active listening II. Asking open-ended questions III. Looking out the window while the patient is talking IV. Performing other tasks while the patient is talking V. Recognizing non verbal cues",
+"optiona": "I,II,III",
+"optionb": "I,II,IV",
+"optionc": "I,II,V",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "41",
+"chapterno": "3",
+"question": "When observing peripheral circulation you would examine",
+"optiona": "Warmth, cuticles, movement, sensation",
+"optionb": "Colour, movement, warmth, sensation",
+"optionc": "Skin condition, colour, warmth movement",
+"optiond": "Colour, warmth, hairiness, sensation",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "42",
+"chapterno": "3",
+"question": "A patient is experiencing post operative bleeding, you would expect a rising heart rate and falling blood pressure",
+"optiona": "True",
+"optionb": "False",
+"optionc": "Maybe",
+"optiond": "Not Sure",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "43",
+"chapterno": "3",
+"question": "Which are the signs and symptoms of Type 1 diabetes",
+"optiona": "Polyuria, weight gain, pruritus, a sweet tooth",
+"optionb": "Polydipsia, weight loss, polyuria, glycosuria",
+"optionc": "Obesity, ketoacidosis, chest pain, muscle weakness",
+"optiond": "Hypoglycaemia, weight loss, polyuria, polydipsia",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "44",
+"chapterno": "3",
+"question": "Signs and symptoms of angina can be",
+"optiona": "Chest pain, shortness of breath, diaphoresis, faintness",
+"optionb": "Faintness, anxiety, feeling of doom, left arm pain",
+"optionc": "Crushing pain, heavy pain, stabbing pain, burning pain",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "45",
+"chapterno": "3",
+"question": "A patient presents with dysuria and abdominal pain. Tests you consider relevant include I. Urinalysis, urine MC&S, FBE II. Urinalysis, urine MC&S, 24 hour urine collection III. Urinalysis, urine MC&S, U&E IV. Urinalysis, urine MC&S, taste test",
+"optiona": "I,II",
+"optionb": "I,II,IV",
+"optionc": "IV",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "46",
+"chapterno": "3",
+"question": "Paralysis or weakness of the arm, leg and face on one side of the body is known as",
+"optiona": "Parasthaesia",
+"optionb": "Quadriplegia",
+"optionc": "Paraplegia",
+"optiond": "Hemiplegia",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "47",
+"chapterno": "3",
+"question": "The Dr orders 1000mL N/S over 6 hours you run the flask at",
+"optiona": "83DPM",
+"optionb": "21DPM",
+"optionc": "42DPM",
+"optiond": "56DPM",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "48",
+"chapterno": "3",
+"question": "The Dr orders IV Digoxin 0.25mg how much do you give of the Vial 500mcg in 2ml",
+"optiona": "0.5mL",
+"optionb": "1mL",
+"optionc": "1.5mL",
+"optiond": "2mL",
+"idl": "0",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "49",
+"chapterno": "3",
+"question": "The Dr orders 1gram of Paracetamol oral 500mg per tablet you give",
+"optiona": "1/2 tablet",
+"optionb": "1 tablet",
+"optionc": "2 tablets",
+"optiond": "4 tablets",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "50",
+"chapterno": "3",
+"question": "The Dr orders Calcium Gluconate 2.2mmol over 20minutes in 30 mL, you run the IV at",
+"optiona": "60mL per hour",
+"optionb": "20mL per hour",
+"optionc": "120mL per hour",
+"optiond": "90mL per hour",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "51",
+"chapterno": "4",
+"question": "To ensure causes of any patient issues are explored, when writing notes, a factual description of the patient's situation is preferable to an interpretation.",
+"optiona": "True",
+"optionb": "False",
+"optionc": "May be",
+"optiond": "None of above",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "52",
+"chapterno": "4",
+"question": "Sitting down with a patient to take a Nursing History is",
+"optiona": "Formal data collection",
+"optionb": "Ad hoc data collection",
+"optionc": "Informal data collection",
+"optiond": "A waste of time",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "53",
+"chapterno": "4",
+"question": "What type of question is, Do you have pain?",
+"optiona": "An open question",
+"optionb": "A stupid question",
+"optionc": "A sharing and caring question",
+"optiond": "A closed question",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "54",
+"chapterno": "4",
+"question": "Bradycardia is defined as a heart rate",
+"optiona": "Greater than 40",
+"optionb": "Less than 40",
+"optionc": "Less than 60",
+"optiond": "Less than 50",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "55",
+"chapterno": "4",
+"question": "Bradypnoea is defined as a respiratory rate",
+"optiona": "Less than 12",
+"optionb": "Less than 16",
+"optionc": "Less than 14",
+"optiond": "Less than 20",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "56",
+"chapterno": "4",
+"question": "Which of the following best describes the nursing process?  I. series of interrelated processes  II. Cyclic, ongoing and continuous  III. Static decision making  IV. A system of planning for and providing nursing care",
+"optiona": "I, II, III",
+"optionb": "I, III, IV",
+"optionc": "I, II, IV",
+"optiond": "I, II, III, IV",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "57",
+"chapterno": "4",
+"question": "Four common signs and symptoms of CNS infections could be",
+"optiona": "Protein in cerebrospinal fluid",
+"optionb": "Neck stiffness",
+"optionc": "Decreased Glasgow Coma Score",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "58",
+"chapterno": "4",
+"question": "A primary neurological assessment always involves  I. Assessing ABCs followed by vital signs  II. Establishing level of consciousness  III. Assessing gait  IV. Checking pupil reactivity to light  V. Assessing posture and muscle tone",
+"optiona": "I, II, III, IV",
+"optionb": "I, II, III",
+"optionc": "I, II, IV, V",
+"optiond": "All of the above",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "59",
+"chapterno": "4",
+"question": "A normal fully awake Glasgow Coma Scale score is",
+"optiona": "13",
+"optionb": "14",
+"optionc": "15",
+"optiond": "16",
+"idl": "0",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "60",
+"chapterno": "4",
+"question": "A patient complains of crushing central chest pain that is relieved by rest within 1 - 3 minutes. You investigate this complaint suspecting",
+"optiona": "Angina",
+"optionb": "Myocardial infarction",
+"optionc": "Pulmonary embolism",
+"optiond": "Chest infection",
+"idl": "0",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "61",
+"chapterno": "5",
+"question": "What is the normal heart rate?",
+"optiona": "50-100 beats per minute",
+"optionb": "60-120 beats per minute",
+"optionc": "60-100 beats per minute",
+"optiond": "60-80 beats per minute",
+"idl": "1",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "62",
+"chapterno": "5",
+"question": "When is sinus tachycardia likely to occur?",
+"optiona": "As a response physiological stress",
+"optionb": "As a result of conduction dysfunction in the heart",
+"optionc": "When the nose begins o run very fast",
+"optiond": "As a result of electrolyte imbalance",
+"idl": "1",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "63",
+"chapterno": "5",
+"question": "When the heart ceases to pump the diagnosis is",
+"optiona": "Endocarditis",
+"optionb": "Myocarditis",
+"optionc": "Aneurysm",
+"optiond": "Cardiac arrest ",
+"idl": "1",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "64",
+"chapterno": "5",
+"question": "The collapsed person with evidence of regurgitation is best positioned",
+"optiona": "Supine",
+"optionb": "Sitting",
+"optionc": "Lateral",
+"optiond": "So that a chest thrust can be performed",
+"idl": "1",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "65",
+"chapterno": "5",
+"question": "The correct approach to assisting a collapsed person is to",
+"optiona": "Check the airway is clear",
+"optionb": "Check there is no danger of injury to the potential rescuer before approaching",
+"optionc": "Check for a response to stimuli",
+"optiond": "Put them into a left lateral position",
+"idl": "1",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "66",
+"chapterno": "5",
+"question": "During cardiopulmonary resuscitation oxygen is administered via the bag valve mask resuscitator using",
+"optiona": "5 litres per minute",
+"optionb": "8 litres per minute",
+"optionc": "A maximum of 3 litres per minute for the patient with chronic airways disease",
+"optiond": "15 litres per minute",
+"idl": "1",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "67",
+"chapterno": "5",
+"question": "The first rescuer attending a collapsed person ",
+"optiona": "Immediately leaves to find help or a phone",
+"optionb": "Remains at the scene and checks for personal danger before assessing for response to stimuli, calling for help and attending to breathing and circulation",
+"optionc": "Immediately begins cardiopulmonary resuscitation",
+"optiond": "Performs a precordial thump",
+"idl": "1",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "68",
+"chapterno": "5",
+"question": "Factors that ensure survival post cardiopulmonary arrest include I. Patient age and history II. Cardiac rhythm during arrest III. Time taken to commencement of CPR IV. Time taken to defibrillation ",
+"optiona": "I, II",
+"optionb": "I, II, III",
+"optionc": "III, IV",
+"optiond": "All of the above",
+"idl": "1",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "69",
+"chapterno": "5",
+"question": "The correct rate of compressions when performing CPR is?",
+"optiona": "100",
+"optionb": "80-100",
+"optionc": "60-80",
+"optiond": "100-120",
+"idl": "1",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "70",
+"chapterno": "5",
+"question": "The correct ratio for two persons performing cardio pulmonary resuscitation on a non-intubated patient is:",
+"optiona": "5:1",
+"optionb": "30:2",
+"optionc": "15:2",
+"optiond": "15:1",
+"idl": "1",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "71",
+"chapterno": "5",
+"question": "Nominate the normal rate of sino-atrial discharge.",
+"optiona": "60",
+"optionb": "60-100",
+"optionc": "60-80",
+"optiond": "80",
+"idl": "2",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "72",
+"chapterno": "5",
+"question": "Which of the following is not a possible cause of sinus bradycardia?",
+"optiona": "Sleep",
+"optionb": "Myocardial ischaemia",
+"optionc": "Anxiety",
+"optiond": "Beta blocker administration",
+"idl": "2",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "73",
+"chapterno": "5",
+"question": "An irritable focus within the ventricle that discharges before the next anticipated sinus beat is called?",
+"optiona": "A premature atrial contraction or ectopic",
+"optionb": "A premature ventricular contraction  or ectopic",
+"optionc": "Atrioventricular block",
+"optiond": "Junctional rhythm",
+"idl": "2",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "74",
+"chapterno": "5",
+"question": "Bag Valve Mask devices with an oxygen reservoir: 1.Should be connected to 15 lpm flow of oxygen 2.Can deliver close to 100% oxygen 3.Are often difficult for one person to apply effectively 4.Usually provide more tidal volume than mouth to mouth resuscitation when applied effectively",
+"optiona": "1, 2, 3",
+"optionb": "2, 3, 4",
+"optionc": "1, 4",
+"optiond": "All of the above",
+"idl": "2",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "75",
+"chapterno": "5",
+"question": "Upon finding a patient collapsed the priority for the resuscitation team is:",
+"optiona": "Defibrillate immediately",
+"optionb": "Commence CPR",
+"optionc": "Deliver a precordial thump",
+"optiond": "Give 1mg epinephrine (adrenaline)",
+"idl": "2",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "76",
+"chapterno": "5",
+"question": "Inflammation of the sac surrounding the heart muscle is",
+"optiona": "Thrombophlebitis",
+"optionb": "Myocarditis",
+"optionc": "Pericarditis",
+"optiond": "Endocarditis",
+"idl": "2",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "77",
+"chapterno": "5",
+"question": "Transthoracic Resistance (TTR) influences the amount of current delivered to the heart during defibrillation. Which factor reduces TTR and improves current delivery?",
+"optiona": "Acting immediately regardless of hair, moisture or electrodes on the chest wall",
+"optionb": "Reducing selected energy for defibrillation",
+"optionc": "Rolling the pads onto a clean, dry chest wall to exclude air pockets",
+"optiond": "Increasing time intervals between shocks",
+"idl": "2",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "78",
+"chapterno": "5",
+"question": "In an unwitnessed cardiac arrest initially treated with CPR, immediately on diagnosis of VF, the rescuer should:",
+"optiona": "Intubate, administer  epinephrine (adrenaline) and defibrillate",
+"optionb": "Charge defibrillator to peak output and defibrillate",
+"optionc": "Give lidocaine (lignocaine), charge the defibrillator to 200 joules and defibrillate",
+"optiond": "Charge the defibrillator to 200 joules and defibrillate using one shock",
+"idl": "2",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "79",
+"chapterno": "5",
+"question": "A precordial thump would be delivered in which of the following conditions?",
+"optiona": "Conscious VT",
+"optionb": "Witnessed, monitored VF / pulseless VT",
+"optionc": "Fine VF",
+"optiond": "Asystole",
+"idl": "2",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "80",
+"chapterno": "5",
+"question": "What are the recommended energy levels for biphasic defibrillation in a witnessed monitored VF arrest in an adult?",
+"optiona": "200J, 200J, 200J",
+"optionb": "200J, 250J, 300J",
+"optionc": "200J, 200J, 360J",
+"optiond": "100J, 200J, 300J",
+"idl": "2",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "81",
+"chapterno": "5",
+"question": "The person who finds a patient collapsed should: I. Check for danger to themselves or others before approaching the patient II. Check the patient's response to stimulation III. Call a Code Blue by quickly going off to seek assistance IV. Stay with the patient, assessing and supporting breathing and circulation while calling a Code Blue from the patient's location",
+"optiona": "1, 2, 3",
+"optionb": "3",
+"optionc": "1, 2, 4",
+"optiond": "All of the above",
+"idl": "3",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "82",
+"chapterno": "5",
+"question": "Another name for third degree atrio-venricular (A-V) block is",
+"optiona": "Wenkebach A-V block",
+"optionb": "Mobitz II A-V block",
+"optionc": "First degree A-V block",
+"optiond": "Complete heart block",
+"idl": "3",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "83",
+"chapterno": "5",
+"question": "Identify the most common arrhythmia associated with ischaemic heart disease",
+"optiona": "Atrial fibrillation",
+"optionb": "Ventricular fibrillation",
+"optionc": "Premature ventricular contractions",
+"optiond": "Ventricular tachycardia",
+"idl": "3",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "84",
+"chapterno": "5",
+"question": "During ventricular asystole the electrocardiograph will show",
+"optiona": "Nothing at all",
+"optionb": "A disorganised, chaotic rhythm",
+"optionc": "Either a straight line or only P waves",
+"optiond": "Rapid, broad complexes",
+"idl": "3",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "85",
+"chapterno": "5",
+"question": "The correct depth of compressions when performing CPR is?",
+"optiona": "2-3 cm",
+"optionb": "5-8 cm",
+"optionc": "1-2 cm",
+"optiond": "4-5 cm or 1/3 of the chest wall",
+"idl": "3",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "86",
+"chapterno": "5",
+"question": "Inflammation of the heart valves and chambers is",
+"optiona": "Endocarditis",
+"optionb": "Myocarditis",
+"optionc": "Pericarditis",
+"optiond": "Thrombophlebitis",
+"idl": "3",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "87",
+"chapterno": "5",
+"question": "Which of the following factors reduces Trans Thoracic Resistance and enhances the chance of successful defibrillation?",
+"optiona": "The use of the lowest energy level possible",
+"optionb": "Single counter shocks delivered several minutes apart",
+"optionc": "Administration of NaHCO3 before each defibrillation attempt",
+"optiond": "Having clear, clean, dry skin in full contact with the surface of the defibrillation pads",
+"idl": "3",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "88",
+"chapterno": "5",
+"question": "Which definition best describes ventricular tachycardia?",
+"optiona": "Every sinus beat is paired with a premature ventricular contraction",
+"optionb": "A heart rate of greater than 100 beats per minute",
+"optionc": "A rapid, irregular and chaotic cardiac rhythm lacking cardiac output",
+"optiond": "Four or more premature ventricular contractions in sequence occurring at a rate of 140-250 per minute",
+"idl": "3",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "89",
+"chapterno": "5",
+"question": "An appropriate immediate intervention during ventricular tachycardia with pulse would be",
+"optiona": "Encouraging vagal stimulation via vigorous coughing",
+"optionb": "A precordial thump",
+"optionc": "Chest compressions",
+"optiond": "Potassium chloride 5 mmol over 5 minutes",
+"idl": "3",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "90",
+"chapterno": "5",
+"question": "A condition in which organised cardiac electrical activity is present in the absence of cardiac output is called?",
+"optiona": "Ventricular fibrillation",
+"optionb": "Asystole",
+"optionc": "Ventricular standstill",
+"optiond": "Pulseless Electrical Activity or Electromechanical Dissociation",
+"idl": "3",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "91",
+"chapterno": "5",
+"question": "Identify three elements of basic life support",
+"optiona": "Opening the airway, intubation of the patient, maintaining artificial circulation",
+"optionb": "Opening the airway, providing for respiration, administering antiarrhythmics",
+"optionc": "Identifying the heart rhythm, providing for respiration, maintaining artificial circulation",
+"optiond": "Opening the airway, providing for respiration, maintaining artificial circulation",
+"idl": "4",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "92",
+"chapterno": "5",
+"question": "Which vascular point of access is easiest to assess in event of a collapse?",
+"optiona": "Radial",
+"optionb": "Carotid",
+"optionc": "Brachial",
+"optiond": "Femoral",
+"idl": "4",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "93",
+"chapterno": "5",
+"question": "From the list below identify a presentation that is not a definitive sign of cardiopulmonary arrest.",
+"optiona": "Absence of pulse",
+"optionb": "Apnoea",
+"optionc": "Loss of consciousness",
+"optiond": "Fixed and dilated pupils",
+"idl": "4",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "94",
+"chapterno": "5",
+"question": "An accurate definition of supraventricular conduction abnormalities would be",
+"optiona": "Abnormal impulses arising in the ventricles",
+"optionb": "Abnormal impulses arising in the Bundle of His",
+"optionc": "Abnormal impulses arising in the Purkinje fibres",
+"optiond": "Abnormal impulses arising in the atria and junctional areas of the heart",
+"idl": "4",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "95",
+"chapterno": "5",
+"question": "Which of the following atrio-ventricular (A-V) blocks is considered most life threatening?",
+"optiona": "Third degree A-V block",
+"optionb": "Second degree A-V block Type II",
+"optionc": "First degree A-V block",
+"optiond": "Second degree A-V block Type I",
+"idl": "4",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "96",
+"chapterno": "5",
+"question": "What is the most reliable clinical sign of cardiac arrest?",
+"optiona": "Loss of pulse",
+"optionb": "Cessation of respiration",
+"optionc": "Loss of consciousness",
+"optiond": "Collapse",
+"idl": "4",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "97",
+"chapterno": "5",
+"question": "Why is ventricular tachycardia life threatening?",
+"optiona": "The fast rate allows inadequate time for ventricular filling, compromising cardiac output",
+"optionb": "The ventricles cannot function effectively without atrial support",
+"optionc": "There is never any cardiac output with ventricular tachycardia",
+"optiond": "Ventricular tachycardia is not treatable",
+"idl": "4",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "98",
+"chapterno": "5",
+"question": "Which definition best describes ventricular fibrillation?",
+"optiona": "Chaotically discharging ectopic foci throughout the upper chambers of the heart",
+"optionb": "A rapid, irregular and chaotic cardiac rhythm without cardiac output",
+"optionc": "An irritable focus within the ventricle that discharges before the next anticipated sinus beat",
+"optiond": "Multiple, rapid premature ventricular contractions without cardiac output",
+"idl": "4",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "99",
+"chapterno": "5",
+"question": "In asystole:",
+"optiona": "Defibrillation is a reasonable option",
+"optionb": "Atropine should be administered first",
+"optionc": "External cardiac pacing can be considered if all else fails",
+"optiond": "A precordial thump should be delivered if it is a witnessed cardiac arrest",
+"idl": "4",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "100",
+"chapterno": "5",
+"question": "Carotid sinus massage (performed by a Medical Officer) is an appropriate intervention for which of the following arrhythmias?",
+"optiona": "Supraventricular tachycardia",
+"optionb": "Asystole",
+"optionc": "Bradycardia",
+"optiond": "Ventricular fibrillation",
+"idl": "4",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "101",
+"chapterno": "5",
+"question": "What is the most common cause of an obstructed airway during cardiac arrest?",
+"optiona": "Vomit",
+"optionb": "The tongue against the posterior pharyngeal wall",
+"optionc": "Foreign bodies",
+"optiond": "Laryngeal oedema",
+"idl": "5",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "102",
+"chapterno": "5",
+"question": "Clinical death may occur within one minute. How long before biological death begins?",
+"optiona": "Four minutes",
+"optionb": "One minute",
+"optionc": "Two minutes",
+"optiond": "Five minutes",
+"idl": "5",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "103",
+"chapterno": "5",
+"question": "Nominate the approximate FiO2 of expired gas during mouth to mouth.",
+"optiona": "16%",
+"optionb": "21%",
+"optionc": "10%",
+"optiond": "30%",
+"idl": "5",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "104",
+"chapterno": "5",
+"question": "The correct technique for use of a bag valve mask device for pulmonary resuscitation would not include",
+"optiona": "Jaw support and a sealed mask that maintains a patent airway",
+"optionb": "Two operators where possible",
+"optionc": "Breaths delivered over 1-2 seconds",
+"optiond": "Tidal volumes of 10-15 ml/kg",
+"idl": "5",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "105",
+"chapterno": "5",
+"question": "Why is observing for the rise and fall of the chest wall an important observation during artificial respiration?",
+"optiona": "Because then you know the patient has adequate oxygenation",
+"optionb": "To exclude effort being expended on distension of the stomach and minimise the risk of regurgitation",
+"optionc": "To estimate tidal volume being delivered",
+"optiond": "To exclude pneumothorax",
+"idl": "5",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "106",
+"chapterno": "5",
+"question": "From what distance above the chest wall is a precordial thump delivered for a witnessed and monitored ventricular arrhythmia?",
+"optiona": "20 to 30 centimetres",
+"optionb": "5 to 10 centimetres",
+"optionc": "30 to 40 centimetres",
+"optiond": "10 to 20 centimetres",
+"idl": "5",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "107",
+"chapterno": "5",
+"question": "How often is it estimated ventricular fibrillation the cause of cardiac arrest?",
+"optiona": "20% of the time",
+"optionb": "50% of the time",
+"optionc": "80% of the time",
+"optiond": "100% of the time",
+"idl": "5",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "108",
+"chapterno": "5",
+"question": "For a witnessed, monitored ventricular fibrillation cardiac arrest, choose the point  defibrillation is most appropriate.",
+"optiona": "Immediately after a dose of amiodarone",
+"optionb": "Immediately after 2 minutes of cardiopulmonary resuscitation",
+"optionc": "Immediately after the first dose of Epinephrine (adrenaline)",
+"optiond": "Immediately after a check for danger",
+"idl": "5",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "109",
+"chapterno": "5",
+"question": "What is the most common complication of external cardiac massage?",
+"optiona": "Tension pneumothorax",
+"optionb": "Tamponade",
+"optionc": "Ventricular rupture",
+"optiond": "Fractured ribs",
+"idl": "5",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "110",
+"chapterno": "5",
+"question": "Why is the number 33 deemed to be significant to man's well being?",
+"optiona": "It is meant to be man's perpetual age in heaven",
+"optionb": "It represents the number of vertebrae required to stand tall",
+"optionc": "It represents the coming of age for the Hobbits of Middle Earth",
+"optiond": "Any of the above",
+"idl": "5",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "111",
+"chapterno": "5",
+"question": "What is the single greatest risk factor for cardiac arrest?",
+"optiona": "Electrolyte imbalance",
+"optionb": "Drug overdose",
+"optionc": "Coronary artery disease",
+"optiond": "Smoking",
+"idl": "6",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "112",
+"chapterno": "5",
+"question": "A patient is found lying on the floor. What are your first three actions?",
+"optiona": "Check for respiration, clear the airway, commence cardiopulmonary resuscitation",
+"optionb": "Call for assistance, position the patient laterally, perform a finger sweep of the mouth",
+"optionc": "Check for danger, seek a response, call for assistance",
+"optiond": "Find a phone, call for help, return to the patient",
+"idl": "6",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "113",
+"chapterno": "5",
+"question": "A simple and effective way of opening the airway is?",
+"optiona": "Perform a Heimlich manoeuvre ",
+"optionb": "Stick your fingers down the throat",
+"optionc": "Grasp and lift the chin up",
+"optiond": "Hang the person upside down",
+"idl": "6",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "114",
+"chapterno": "5",
+"question": "The gold standard for ventilation and airway protection during cardiac arrest is",
+"optiona": "Bag valve mask",
+"optionb": "Hudson mask with access to suction",
+"optionc": "Cuffed endotracheal tube",
+"optiond": "Guedel airway",
+"idl": "6",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "115",
+"chapterno": "5",
+"question": "The chance of survival after cardiopulmonary arrest increases if:",
+"optiona": "The collapse is not witnessed",
+"optionb": "CPR is commenced immediately",
+"optionc": "The cardiac rhythm is asystole",
+"optiond": "The patient is intubated as soon as possible",
+"idl": "6",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "116",
+"chapterno": "5",
+"question": "Approximately what percentage of prearrest cardiac output can effective cardiac compressions produce?",
+"optiona": "80-100%",
+"optionb": "20-30%",
+"optionc": "40-60%",
+"optiond": "10-20%",
+"idl": "6",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "117",
+"chapterno": "5",
+"question": "What should the operator of the defibrillator look for before applying defibrillation pads? I.Presence of contact with clean, dry skin for good contact II.Presence of a permanent pacemaker to be avoided III.Presence of glyceryl trinitrate patches for removal IV.Presence of water to aid conduction",
+"optiona": "I, III",
+"optionb": "I, IV",
+"optionc": "I, II, III",
+"optiond": "All of the above",
+"idl": "6",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "118",
+"chapterno": "5",
+"question": "Before discharge of the defibrillator the operator will call out 'Stand clear!'What else does the operator need to do at this stage? ",
+"optiona": "Turn the defibrillator on",
+"optionb": "Enter the procedure into the record",
+"optionc": "Check for air bubbles under the pads",
+"optiond": "Visually check no one is in contact with the patient, bed or trolley",
+"idl": "6",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "119",
+"chapterno": "5",
+"question": "Identify reasons defibrillation may fail to occur after pressing the button to deliver a shock.",
+"optiona": "Battery is flat",
+"optionb": "has fractured",
+"optionc": "Machine has not been turned on",
+"optiond": "All of the above",
+"idl": "6",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "120",
+"chapterno": "5",
+"question": "What proportion of natural fatalities in the industrialised world is caused by sudden cardiac death?",
+"optiona": "25-30%",
+"optionb": "15-20%",
+"optionc": "50-60%",
+"optiond": "45-50%",
+"idl": "6",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "121",
+"chapterno": "5",
+"question": "Local dilatation of an artery or chamber of the heart is called",
+"optiona": "Varicose veins",
+"optionb": "Aneurysm",
+"optionc": "Lymphedema",
+"optiond": "Rupture",
+"idl": "7",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "122",
+"chapterno": "5",
+"question": "Which factors determine whether or not an individual will survive cardiac arrest?",
+"optiona": "The cardiac rhythm",
+"optionb": "The time to commencement of cardiopulmonary resuscitation and/or defibrillation",
+"optionc": "Co morbidities",
+"optiond": "All of the above",
+"idl": "7",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "123",
+"chapterno": "5",
+"question": "After checking for danger to the rescuer, the appropriate first intervention for a witnessed VF or Pulseless VT arrest",
+"optiona": "A precordial thump",
+"optionb": "Defibrillate X 3",
+"optionc": "Epinephrine (adrenaline) 1mg IV bolus",
+"optiond": "Amiodarone 5 mg/kg IV",
+"idl": "7",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "124",
+"chapterno": "5",
+"question": "Into which therapeutic class of drugs does atropine fall?",
+"optiona": "Antiarrhythmic",
+"optionb": "Sympathomimetic",
+"optionc": "Anticholinergic",
+"optiond": "Cardiac glycoside",
+"idl": "7",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "125",
+"chapterno": "5",
+"question": "Causes of PEA may include: 1. Ruptured aortic aneurysm 2. Tension pneumothorax 3. Massive GI bleed 4. Hyperkalaemia 5. Poisoning",
+"optiona": "1, 2, 3, 4",
+"optionb": "2, 4, 5",
+"optionc": "1, 2, 3",
+"optiond": "All of the above",
+"idl": "7",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "126",
+"chapterno": "5",
+"question": "Four reversible causes beginning with 'H' to consider during cardiac arrest are",
+"optiona": "Hypoxaemia, hyperglycaemia, hypovolaemia, hypothermia",
+"optionb": "Hypovolaemia, hyperthermia, hysteria, hypokalaemia",
+"optionc": "Hypothermia, hypokalaemia, hyperventilation, hyperkalaemia",
+"optiond": "Hypoxaemia, hypovolaemia, hyperthermia, Hyperkalaemia",
+"idl": "7",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "127",
+"chapterno": "5",
+"question": "The side effects of confusion, seizures and coma are associated with which antiarrhythmic drug?",
+"optiona": "Atropine",
+"optionb": "Lignocaine",
+"optionc": "Amiodarone",
+"optiond": "Adenosine",
+"idl": "7",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "128",
+"chapterno": "5",
+"question": "For which rhythm is synchronised cardioversion appropriate?",
+"optiona": "Ventricular Fibrillation",
+"optionb": "Conscious Ventricular Tachycardia",
+"optionc": "Asystole",
+"optiond": "Unconscious Ventricular Tachycardia",
+"idl": "7",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "129",
+"chapterno": "5",
+"question": "If Epinephrine (adrenaline) fails to correct asystole, which other drug is recommended?",
+"optiona": "Lidocaine (lignocaine)",
+"optionb": "Amiodarone",
+"optionc": "Atropine",
+"optiond": "Isoproterenol (isuprenaline)",
+"idl": "7",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "130",
+"chapterno": "5",
+"question": "Amiodarone may be diluted using only",
+"optiona": "Normal saline",
+"optionb": "Sterile water",
+"optionc": "5% dextrose water",
+"optiond": "Hypertonic saline",
+"idl": "7",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "131",
+"chapterno": "5",
+"question": "Atrio-ventricular block is most commonly associated with which type of myocardial infarction?",
+"optiona": "Anterior",
+"optionb": "Posterior",
+"optionc": "Lateral ",
+"optiond": "Inferior",
+"idl": "8",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "132",
+"chapterno": "5",
+"question": "Which of the following is not a cause of first degree atrio-ventricular block?",
+"optiona": "Beta blocker administration",
+"optionb": "A-V node ischaemia",
+"optionc": "Parasympathetic stimulation",
+"optiond": "Exercise",
+"idl": "8",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "133",
+"chapterno": "5",
+"question": "What represents an indication of hyperkalaemia on the electrocardiogram?",
+"optiona": "Inverted T waves",
+"optionb": "A prolonged Q-T interval",
+"optionc": "Tall peaked T waves",
+"optiond": "Flattened T waves",
+"idl": "8",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "134",
+"chapterno": "5",
+"question": "Identify mechanisms that hinder cardiac function during arrhythmias. 1. Compromised atrial ejection 2. Optimal ventricular filling 3. Increased myocardial oxygen consumption 4. Atrio-ventricular association 5. Inefficient ventricular contraction",
+"optiona": "1, 2, and 3",
+"optionb": "2 and 4",
+"optionc": "1, 3 and 5",
+"optiond": "All of the above",
+"idl": "8",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "135",
+"chapterno": "5",
+"question": "Approximately what proportion of patients on long term amiodarone experience adverse effects?",
+"optiona": "25%",
+"optionb": "50%",
+"optionc": "75%",
+"optiond": "100%",
+"idl": "8",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "136",
+"chapterno": "5",
+"question": "The adult dose of epinephrine (adrenaline) is:",
+"optiona": "1-3mg every 3-5 minutes",
+"optionb": "1mg of 1:1000 every 3 minutes",
+"optionc": "0.5-1mg for pulseless VF only",
+"optiond": "1mg of 1:100,000",
+"idl": "8",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "137",
+"chapterno": "5",
+"question": "Into which therapeutic class of drugs does Epinephrine (adrenaline)  fall?",
+"optiona": "Antiarrhythmic",
+"optionb": "Sympathomimetic",
+"optionc": "Anticholinergic",
+"optiond": "Cardiac glycoside",
+"idl": "8",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "138",
+"chapterno": "5",
+"question": "Four reversible causes beginning with �T� to consider during cardiac arrest are",
+"optiona": "Tension pneumothorax, trachoma, thromboembolism, toxicity",
+"optionb": "Thromboembolism, tamponade, toxicity, thoracotomy",
+"optionc": "Tamponade, tension pneumothorax, toxicity, thromboembolism",
+"optiond": "Toxicity, thromboembolism, tamponade, tragedy",
+"idl": "8",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "139",
+"chapterno": "5",
+"question": "For defibrillation and cardioversion, which of the following statements is most accurate?",
+"optiona": "A short, controlled electrical shock will result in myocardial depolarisation",
+"optionb": "Tachyarrhythmias always respond to defibrillation and cardioversion",
+"optionc": "Defibrillation and cardioversion discharge an electrical shock into the R wave of the ECG",
+"optiond": "Either defibrillation or cardioversion can be used effectively during cardiac arrest",
+"idl": "8",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "140",
+"chapterno": "5",
+"question": "During an asystolic cardiac arrest external pacing may be tried as a last resort. Which mode is recommended in this situation?",
+"optiona": "Asynchronous",
+"optionb": "Demand",
+"optionc": "synchronous",
+"optiond": "None of above",
+"idl": "8",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "141",
+"chapterno": "5",
+"question": "In atrial fibrillation many ectopic foci discharge in a chaotic twitching of the atrial muscle, without full contraction. Which of the following represents the range of the atrial rate in atrial fibrillation?",
+"optiona": "400-1000",
+"optionb": "100-160",
+"optionc": "140-200",
+"optiond": "60 - 100",
+"idl": "9",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "142",
+"chapterno": "5",
+"question": "In second degree atrio-ventricular block some sinus impulses are blocked by the atrio-ventricular node before they reach the ventricles. Find the name of an atrio-ventricular block which is not of the second degree type",
+"optiona": "Complete",
+"optionb": "Wenckebach",
+"optionc": "Mobitz II",
+"optiond": "Type I",
+"idl": "9",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "143",
+"chapterno": "5",
+"question": "The correct ventilation to compression ratio for an arrested patient intubated with an ETT is:",
+"optiona": "10 compressions to 2 ventilations with one operator",
+"optionb": "30 compressions to 2 ventilations with two operators",
+"optionc": "15 compressions to 1 ventilation with two operators",
+"optiond": "5 compressions to 1 ventilation for two operators",
+"idl": "9",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "144",
+"chapterno": "5",
+"question": "During a VF arrest 1 mg of Epinephrine (adrenaline) is administered every",
+"optiona": "1 minute",
+"optionb": "5 minutes",
+"optionc": "10 minutes",
+"optiond": "3 minutes",
+"idl": "9",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "145",
+"chapterno": "5",
+"question": "In asystole:",
+"optiona": "Defibrillation is a reasonable option",
+"optionb": "Atropine should be administered first",
+"optionc": "External cardiac pacing can be considered if all else fails",
+"optiond": "A precordial thump should be delivered if it is a witnessed cardiac arrest",
+"idl": "9",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "146",
+"chapterno": "5",
+"question": "Two indications for the administration of epinephrine (adrenaline) are?",
+"optiona": "Bradyarrhythmia and hypovolaemic shock",
+"optionb": "Cardiogenic shock and conscious VT",
+"optionc": "Asystole and anaphylactic shock",
+"optiond": "Septic shock and conscious VT",
+"idl": "9",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "147",
+"chapterno": "5",
+"question": "How can asystole be confirmed using the defibrillator monitor?",
+"optiona": "Check two different leads",
+"optionb": "Increase the size of the ECG",
+"optionc": "Confirm leads are plugged in and connected to clean, dry skin",
+"optiond": "All of the above",
+"idl": "9",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "148",
+"chapterno": "5",
+"question": "How long is cardiopulmonary resuscitation continued after each emergency drug administration?",
+"optiona": "2 minutes",
+"optionb": "1 minute",
+"optionc": "10 minutes",
+"optiond": "5 minutes",
+"idl": "9",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "149",
+"chapterno": "5",
+"question": "Which of main causes of cardiac arrest has the best prognosis when best practice recommendations are applied?",
+"optiona": "Electro Mechanical Dissociation",
+"optionb": "Ventricular Fibrillation",
+"optionc": "Asystole",
+"optiond": "Dorsal pedis",
+"idl": "9",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "150",
+"chapterno": "5",
+"question": "In the absence of a central venous catheter the best peripheral access to obtain during cardiac arrest would be?",
+"optiona": "Basilica",
+"optionb": "Antecubital",
+"optionc": "Dorsal pedis",
+"optiond": "Brachial",
+"idl": "9",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "151",
+"chapterno": "5",
+"question": "In atrial flutter the sino-atrial node is replaced by an irritable ectopic pacemaker in the atria. Which of the following represents the range of the atrial rate in atrial flutter?",
+"optiona": "60 - 100",
+"optionb": "100 - 160",
+"optionc": "40 - 60",
+"optiond": "250 - 400",
+"idl": "10",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "152",
+"chapterno": "5",
+"question": "Which statement best describes complete heart block?",
+"optiona": "The atrio-ventriclur node allows only a few impulses through the ventricles",
+"optionb": "There is no relationship between the atrial and ventricular rhythms",
+"optionc": "The heart is at a standstill",
+"optiond": "No P waves appear on the electrocardiograph",
+"idl": "10",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "153",
+"chapterno": "5",
+"question": "In the presence of Ischaemic heart disease a premature ventricular contraction may precipitate ventricular tachycardia or ventricular fibrillation. Which of the following settings is this least likely to occur?",
+"optiona": "When premature ventricular contractions originate with greater than one irritable ventricular focus",
+"optionb": "When premature ventricular contractions occur frequently, especially if greater than six per minute",
+"optionc": "When the premature ventricular contraction occurs clear of the preceding T wave",
+"optiond": "When each sinus beat is coupled with a premature ventricular contraction",
+"idl": "10",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "154",
+"chapterno": "5",
+"question": "During Advanced Life Support intervention for Ventricular Fibrillation and pulseless Ventricular Tachycardia the aim is to complete the defibrillation - Epinephrine (adrenaline)  - CPR cycle until return of spontaneous circulation every",
+"optiona": "1 - 2 minutes",
+"optionb": "3 - 5 minutes",
+"optionc": "10 - 20 minutes",
+"optiond": "5 - 10 minutes",
+"idl": "10",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "155",
+"chapterno": "5",
+"question": "Which of the following conditions may require treatment with cardiac pacing? 1) Asystole 2) Idioventricular rhythm with haemodynamic compromise 3) Complete heart block with low systolic blood pressure 4) Second degree AV Block Type II",
+"optiona": "1, 2and 3",
+"optionb": "2 and 3",
+"optionc": "2, 3 and 4",
+"optiond": "All of the above",
+"idl": "10",
+"answer": "D",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "156",
+"chapterno": "5",
+"question": "Which of the following drugs cannot be given via ETT?",
+"optiona": "epinephrine (adrenaline)",
+"optionb": "amiodarone",
+"optionc": "lidocaine (lignocaine)",
+"optiond": "atropine",
+"idl": "10",
+"answer": "B",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "157",
+"chapterno": "5",
+"question": "For the asystolic patient post cardiac surgery, the intervention that may be considered immediately necessary would be",
+"optiona": "Laparotomy",
+"optionb": "Coronary bypass surgery",
+"optionc": "Sternotomy",
+"optiond": "Angiogram",
+"idl": "10",
+"answer": "C",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "158",
+"chapterno": "5",
+"question": "First line drugs administered via the endotracheal tube are administered in 10 mL using the IV dose multiplied by",
+"optiona": "2",
+"optionb": "1.5",
+"optionc": "3",
+"optiond": "5",
+"idl": "10",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "159",
+"chapterno": "5",
+"question": "If NaHCO3 is to be administered during cardiac arrest the administration duration is recommended as",
+"optiona": "20 minutes",
+"optionb": "10 minutes",
+"optionc": "IV bolus",
+"optiond": "5 minutes",
+"idl": "10",
+"answer": "A",
+"iscorrect": "0"
+}
+},
+{
+"Questions": {
+"questionid": "160",
+"chapterno": "5",
+"question": "Defibrillation with the 'Synch' button on is indicated in which of the following?",
+"optiona": "VT without pulse",
+"optionb": "Pulseless Electrical Activity",
+"optionc": "Normotensive VT with pulse prior to any drug therapy",
+"optiond": "Decompensating SVT with pulse",
+"idl": "10",
+"answer": "D",
+"iscorrect": "0"
+}
+}
+]
+}
+}

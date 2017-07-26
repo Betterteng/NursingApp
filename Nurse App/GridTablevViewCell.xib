@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="489" id="KGk-i7-Jjw" customClass="GridTablevViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="489"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="488.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPc-vX-OQo">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="488"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Dw8-Cw-1yS">
+                                <rect key="frame" x="0.0" y="0.0" width="298" height="488"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="1" id="hzc-sB-C3I">
+                                    <size key="itemSize" width="35" height="488"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="KGk-i7-Jjw" id="VkM-26-3H7"/>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="FD6-hR-7J5"/>
+                                </connections>
+                            </collectionView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ra11" translatesAutoresizingMaskIntoConstraints="NO" id="n0v-Mf-xK2">
+                                <rect key="frame" x="322" y="0.0" width="73" height="488"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="rxu-Id-dLo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ra0" translatesAutoresizingMaskIntoConstraints="NO" id="23Y-z9-YK3">
+                                <rect key="frame" x="298" y="0.0" width="24" height="488"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="L04-Pe-Mnv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n0v-Mf-xK2" firstAttribute="top" secondItem="DPc-vX-OQo" secondAttribute="top" id="6Ny-RL-krT"/>
+                            <constraint firstItem="Dw8-Cw-1yS" firstAttribute="leading" secondItem="DPc-vX-OQo" secondAttribute="leading" id="DzW-M6-Qsr"/>
+                            <constraint firstAttribute="bottom" secondItem="23Y-z9-YK3" secondAttribute="bottom" id="HXo-Zh-aHE"/>
+                            <constraint firstItem="Dw8-Cw-1yS" firstAttribute="top" secondItem="DPc-vX-OQo" secondAttribute="top" id="KBM-dm-3L2"/>
+                            <constraint firstItem="23Y-z9-YK3" firstAttribute="top" secondItem="DPc-vX-OQo" secondAttribute="top" id="Lhh-uW-T0B"/>
+                            <constraint firstAttribute="trailing" secondItem="n0v-Mf-xK2" secondAttribute="trailing" id="O9X-xm-lrq"/>
+                            <constraint firstAttribute="bottom" secondItem="n0v-Mf-xK2" secondAttribute="bottom" id="clP-Ai-sUj"/>
+                            <constraint firstItem="23Y-z9-YK3" firstAttribute="leading" secondItem="Dw8-Cw-1yS" secondAttribute="trailing" id="cpS-3E-g0f"/>
+                            <constraint firstAttribute="bottom" secondItem="Dw8-Cw-1yS" secondAttribute="bottom" id="nun-tV-07x"/>
+                            <constraint firstItem="n0v-Mf-xK2" firstAttribute="leading" secondItem="23Y-z9-YK3" secondAttribute="trailing" id="pku-64-ReZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="DPc-vX-OQo" secondAttribute="bottom" id="BVV-m7-Ifi"/>
+                    <constraint firstItem="DPc-vX-OQo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CTb-7x-xZK"/>
+                    <constraint firstItem="DPc-vX-OQo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OCA-9u-kgL"/>
+                    <constraint firstAttribute="trailing" secondItem="DPc-vX-OQo" secondAttribute="trailing" id="ZQ4-4Q-Fa0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImageView" destination="n0v-Mf-xK2" id="qON-q9-RTz"/>
+                <outlet property="rhythmCollectionView" destination="Dw8-Cw-1yS" id="35N-4k-jmX"/>
+                <outlet property="titleImageView" destination="23Y-z9-YK3" id="Gka-9P-s7M"/>
+            </connections>
+            <point key="canvasLocation" x="362.5" y="372.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ra0" width="21" height="481"/>
+        <image name="ra11" width="108" height="481"/>
+    </resources>
+</document>

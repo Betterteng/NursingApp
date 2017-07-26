@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MyriadPro-Semibold.otf">
+            <string>MyriadPro-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChartViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TableViewCellBackground" translatesAutoresizingMaskIntoConstraints="NO" id="d5r-Kh-bpq">
+                        <rect key="frame" x="18" y="8" width="286" height="51"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-man" translatesAutoresizingMaskIntoConstraints="NO" id="ntk-vV-wmM">
+                        <rect key="frame" x="34" y="13" width="35" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="yZW-iu-Jkv"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-pluse" translatesAutoresizingMaskIntoConstraints="NO" id="hWk-EF-hQi">
+                        <rect key="frame" x="262" y="21" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="W8b-nT-RYf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Assessment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9a-NO-Lhw">
+                        <rect key="frame" x="77" y="21" width="177" height="28"/>
+                        <fontDescription key="fontDescription" name="MyriadPro-Semibold" family="Myriad Pro" pointSize="22"/>
+                        <color key="textColor" red="0.390625" green="0.39035183566433568" blue="0.3911986451048951" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="ntk-vV-wmM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="EVt-fd-cNC"/>
+                    <constraint firstItem="hWk-EF-hQi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="Gyp-Ka-i4S"/>
+                    <constraint firstItem="d5r-Kh-bpq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Ih8-Gd-CcV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hWk-EF-hQi" secondAttribute="bottom" constant="2" id="KQJ-JI-5co"/>
+                    <constraint firstItem="c9a-NO-Lhw" firstAttribute="bottom" secondItem="hWk-EF-hQi" secondAttribute="bottom" id="MjV-av-2QW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="d5r-Kh-bpq" secondAttribute="bottom" constant="-8" id="O8e-Z1-KPF"/>
+                    <constraint firstItem="ntk-vV-wmM" firstAttribute="centerY" secondItem="d5r-Kh-bpq" secondAttribute="centerY" id="cb0-TX-qhT"/>
+                    <constraint firstItem="hWk-EF-hQi" firstAttribute="leading" secondItem="c9a-NO-Lhw" secondAttribute="trailing" constant="8" id="j2h-WR-aJR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="d5r-Kh-bpq" secondAttribute="trailing" constant="8" id="ki8-ep-IOw"/>
+                    <constraint firstItem="d5r-Kh-bpq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="npT-CA-iww"/>
+                    <constraint firstItem="ntk-vV-wmM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="26" id="p2s-xb-qdu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hWk-EF-hQi" secondAttribute="trailing" constant="22" id="tW2-hY-sfL"/>
+                    <constraint firstItem="c9a-NO-Lhw" firstAttribute="top" secondItem="hWk-EF-hQi" secondAttribute="top" id="v1X-wH-xOa"/>
+                    <constraint firstItem="c9a-NO-Lhw" firstAttribute="leading" secondItem="ntk-vV-wmM" secondAttribute="trailing" constant="8" symbolic="YES" id="ylQ-Xj-cdU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="cellimage" destination="ntk-vV-wmM" id="Mms-iD-yfj"/>
+                <outlet property="cellnameLabel" destination="c9a-NO-Lhw" id="XFS-64-kmN"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="TableViewCellBackground" width="618" height="88"/>
+        <image name="icon-man" width="48" height="60"/>
+        <image name="icon-pluse" width="31" height="31"/>
+    </resources>
+</document>

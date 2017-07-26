@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AnswerCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnswerBackground" translatesAutoresizingMaskIntoConstraints="NO" id="moc-b3-VRc">
+                        <rect key="frame" x="21" y="0.0" width="277" height="43"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="answer_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="WZa-7w-rKC">
+                        <rect key="frame" x="31" y="4" width="257" height="35"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peH-0M-5Sf">
+                        <rect key="frame" x="86" y="11" width="195" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="16" name="ArialMT"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UnselectedOptionButton" translatesAutoresizingMaskIntoConstraints="NO" id="1F0-Xk-OQv">
+                        <rect key="frame" x="45" y="11" width="22" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="f2C-rY-oGM"/>
+                            <constraint firstAttribute="height" constant="21" id="qgX-QS-NiD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="moc-b3-VRc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="13" id="0gt-32-U4T"/>
+                    <constraint firstItem="WZa-7w-rKC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="23" id="0v5-Tl-tK0"/>
+                    <constraint firstItem="peH-0M-5Sf" firstAttribute="leading" secondItem="1F0-Xk-OQv" secondAttribute="trailing" constant="19" id="4kj-Vc-088"/>
+                    <constraint firstItem="1F0-Xk-OQv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="37" id="6Yv-Si-Jch"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WZa-7w-rKC" secondAttribute="bottom" constant="-4" id="DEn-gO-NRM"/>
+                    <constraint firstItem="WZa-7w-rKC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-4" id="Jad-Ls-OAS"/>
+                    <constraint firstItem="peH-0M-5Sf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="LYw-qH-Zgp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="moc-b3-VRc" secondAttribute="bottom" constant="-8" id="MgZ-E1-QSP"/>
+                    <constraint firstItem="1F0-Xk-OQv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TPF-zm-R2I"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="peH-0M-5Sf" secondAttribute="trailing" constant="31" id="Thg-r7-eMi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WZa-7w-rKC" secondAttribute="trailing" constant="24" id="cYI-UE-pEV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="moc-b3-VRc" secondAttribute="trailing" constant="14" id="phq-I0-EQS"/>
+                    <constraint firstItem="moc-b3-VRc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="t4c-uJ-aOu"/>
+                    <constraint firstItem="peH-0M-5Sf" firstAttribute="centerY" secondItem="moc-b3-VRc" secondAttribute="centerY" id="xCS-KL-yOu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="ansLabel" destination="peH-0M-5Sf" id="tE9-OQ-jdc"/>
+                <outlet property="backgroundImage" destination="WZa-7w-rKC" id="au5-XY-Zmb"/>
+                <outlet property="selectionImage" destination="1F0-Xk-OQv" id="bbz-oz-YIv"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AnswerBackground" width="601" height="240"/>
+        <image name="UnselectedOptionButton" width="34" height="34"/>
+        <image name="answer_box.png" width="560" height="74"/>
+    </resources>
+</document>
