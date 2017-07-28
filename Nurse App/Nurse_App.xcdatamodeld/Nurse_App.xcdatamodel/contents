@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1605" minimumToolsVersion="Automatic">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="ChapterLockEntry" syncable="YES">
         <attribute name="chapterno" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="islock" optional="YES" attributeType="String" syncable="YES"/>
@@ -23,9 +23,13 @@
         <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="questionid" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="UserIdentification" representedClassName="UserIdentification" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
+        <element name="ChapterLockEntry" positionX="-63" positionY="72" width="128" height="75"/>
         <element name="CPDEntry" positionX="-63" positionY="-18" width="128" height="120"/>
         <element name="Questions" positionX="-63" positionY="18" width="128" height="195"/>
-        <element name="ChapterLockEntry" positionX="-63" positionY="72" width="128" height="75"/>
+        <element name="UserIdentification" positionX="-54" positionY="81" width="128" height="58"/>
     </elements>
 </model>

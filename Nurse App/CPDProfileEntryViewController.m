@@ -15,6 +15,7 @@
 #import "DatePcikerViewController.h"
 #import "DurationPcikerViewController.h"
 #import "DBFunctions.h"
+#import "UserIdentification+Add.h"
 
 @interface CPDProfileEntryViewController ()
 
@@ -283,6 +284,11 @@
     
 }
 
+//-(void)addToDatabase:(NSString*) userIdentity{
+//    NSDictionary *userInfo = @{@"userId": userIdentity};
+//    [UserIdentification addUserInfoFromDictionary:userInfo];
+//}
+
 -(void)cancelButtonClciked{
     NSLog(@"cancelButtonClciked");
     [self.navigationController popViewControllerAnimated:YES];
@@ -296,52 +302,63 @@
         [self.navigationController popViewControllerAnimated:YES];
     }else{
         NSLog(@"data saved");
-        [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
-        
-        // Pop up an alert to ask user's identification such as email address
-        NSLog(@"********************************");
-        UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"User Identification Needed"
-                                                                                 message:@"This pop window won't show up again after the identification has been saved."
-                                                                          preferredStyle:UIAlertControllerStyleAlert];
-        
-        [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField){
-            textField.placeholder = @"Please input your userID or email address correctly.";
-            textField.secureTextEntry = nil;
-        }];
-        
-        // Extract user input from textField
-        UIAlertAction* saveAction = [UIAlertAction actionWithTitle:@"SAVE" style:UIAlertActionStyleDefault
-                                                           handler:^(UIAlertAction * action) {
-                                                               NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
-                                                               NSString *userInput = ((UITextField *)[alertController.textFields objectAtIndex:0]).text;
-                                                               NSLog(@"%@", userInput);
-                                                           }];
-        UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"CANCEL" style:UIAlertActionStyleDefault
-                                                             handler:^(UIAlertAction * action) {}];
-        
-        [alertController addAction:saveAction];
-        [alertController addAction:cancelAction];
-        [self presentViewController:alertController animated:YES completion:nil];
-        
-        // Collect user's input and ready to form a JSON file
-        NSLog(@"********************************");
-        NSDictionary *jsonReady = [NSDictionary dictionaryWithObjectsAndKeys:
-                                   self.valueTitle, @"Title",
-                                   self.valueNotes, @"Notes",
-                                   self.valueDate, @"Date",
-                                   self.valueDuration, @"Duration",
-                                   nil];
-        
-        NSError *error;
-        // Generate the JSON data
-        NSData* jsonData = [NSJSONSerialization dataWithJSONObject:jsonReady options:NSJSONWritingPrettyPrinted error:&error];
-        // Convert JSON into NSString
-        NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-        NSLog(@"%@", newStr);
-        NSLog(@"********************************");
-        
-        // Go back to the previous screen
-        [self.navigationController popViewControllerAnimated:YES];
+        // Do the validation now - check if user's identification has been saved in the core data
+        BOOL hasId = true;
+                
+        if (hasId) {
+            // Pop up an alert to ask user's identification such as email address
+            NSLog(@"********************************");
+            UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"User Identification Needed"
+                                                                                     message:@"This alert won't show up again after the identification has been saved."
+                                                                                     preferredStyle:UIAlertControllerStyleAlert];
+            // Add a textField to the alert
+            [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField){
+                textField.placeholder = @"Type your userID correctly.";
+                textField.secureTextEntry = nil;
+            }];
+            // Extract user input from textField
+            UIAlertAction* saveAction = [UIAlertAction actionWithTitle:@"SAVE" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+                                            NSString *userInput = ((UITextField *)[alertController.textFields objectAtIndex:0]).text;
+                                            // Save userId to core data - [UserIdentification]
+                                            NSDictionary *userInfo = @{@"userId": userInput};
+                                            [UserIdentification addUserInfoFromDictionary:userInfo];
+                                                                   
+                                            NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
+                                            NSLog(@"%@", userInput);
+                                            NSLog(@"%@", [UserIdentification addUserInfoFromDictionary:userInfo].description);
+                
+                                            // Stroe CPD portfolio into core data
+                                            [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
+                                            // Go back to previous level screen
+                                            [self.navigationController popViewControllerAnimated:YES];
+                                        }];
+            UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"CANCEL" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];
+            // Add actions to the alert
+            [alertController addAction:saveAction];
+            [alertController addAction:cancelAction];
+            // Show the alert
+            [self presentViewController:alertController animated:YES completion:nil];
+        } else {
+            // Collect user's input and ready to form a JSON file
+            NSLog(@"********************************");
+            NSDictionary *jsonReady = [NSDictionary dictionaryWithObjectsAndKeys:
+                                       self.valueTitle, @"Title",
+                                       self.valueNotes, @"Notes",
+                                       self.valueDate, @"Date",
+                                       self.valueDuration, @"Duration",
+                                       nil];
+            NSError *error;
+            // Generate the JSON data
+            NSData* jsonData = [NSJSONSerialization dataWithJSONObject:jsonReady options:NSJSONWritingPrettyPrinted error:&error];
+            // Convert JSON into NSString
+            NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+            NSLog(@"%@", newStr);
+            NSLog(@"********************************");
+            // Save CPD portfolio to core data
+            [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
+            // Go back to the previous screen
+            [self.navigationController popViewControllerAnimated:YES];
+        }
     }
 }
 

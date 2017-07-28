@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40DD99DC1F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD99D91F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.m */; };
+		40DD99DD1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD99DB1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.m */; };
+		40DD99E01F28707D00BA5BE1 /* UserIdentification+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD99DF1F28707D00BA5BE1 /* UserIdentification+Add.m */; };
 		474746691CFEAF59007F9BDD /* ChapterSelectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474746671CFEAF59007F9BDD /* ChapterSelectionHeaderCell.m */; };
 		4747466A1CFEAF59007F9BDD /* ChapterSelectionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474746681CFEAF59007F9BDD /* ChapterSelectionHeaderCell.xib */; };
 		474746701CFEB456007F9BDD /* ChapterSelectionLableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4747466E1CFEB456007F9BDD /* ChapterSelectionLableCell.m */; };
@@ -225,6 +228,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40DD99D81F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserIdentification+CoreDataClass.h"; sourceTree = "<group>"; };
+		40DD99D91F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserIdentification+CoreDataClass.m"; sourceTree = "<group>"; };
+		40DD99DA1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserIdentification+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40DD99DB1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserIdentification+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40DD99DE1F28707D00BA5BE1 /* UserIdentification+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserIdentification+Add.h"; sourceTree = "<group>"; };
+		40DD99DF1F28707D00BA5BE1 /* UserIdentification+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserIdentification+Add.m"; sourceTree = "<group>"; };
 		474746661CFEAF59007F9BDD /* ChapterSelectionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterSelectionHeaderCell.h; sourceTree = "<group>"; };
 		474746671CFEAF59007F9BDD /* ChapterSelectionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterSelectionHeaderCell.m; sourceTree = "<group>"; };
 		474746681CFEAF59007F9BDD /* ChapterSelectionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterSelectionHeaderCell.xib; sourceTree = "<group>"; };
@@ -776,6 +785,12 @@
 		81078C2F1CBFF090000E52AF /* DBFunctions */ = {
 			isa = PBXGroup;
 			children = (
+				40DD99D81F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.h */,
+				40DD99D91F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.m */,
+				40DD99DA1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.h */,
+				40DD99DB1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.m */,
+				40DD99DE1F28707D00BA5BE1 /* UserIdentification+Add.h */,
+				40DD99DF1F28707D00BA5BE1 /* UserIdentification+Add.m */,
 				81078C301CBFF0AD000E52AF /* DBFunctions.h */,
 				81078C311CBFF0AD000E52AF /* DBFunctions.m */,
 				81F4198B1CC0A7CB00A7EEBE /* CPDEntryData.h */,
@@ -1746,6 +1761,7 @@
 				812753641CBCF4C400AF7EB4 /* CPDTitleListViewController.m in Sources */,
 				81D3F2561CC3D041007B143F /* HeaderCellView.m in Sources */,
 				812753591CBCD91300AF7EB4 /* EntryTitleCellView.m in Sources */,
+				40DD99E01F28707D00BA5BE1 /* UserIdentification+Add.m in Sources */,
 				81F4198D1CC0A7CB00A7EEBE /* CPDEntryData.m in Sources */,
 				81AFD9101CFEB7EE0023BD63 /* NSArray+JSONSerializableSupport.m in Sources */,
 				81AFD9301CFEF60F0023BD63 /* QuestionDisplayCell.m in Sources */,
@@ -1768,6 +1784,7 @@
 				81D0E8FE1CFC102A007E2DA0 /* ChapterSelectionViewController.m in Sources */,
 				81AFD9041CFEB7E30023BD63 /* SBJSON.m in Sources */,
 				812BDD161CB909A100D1C8ED /* AboutViewController.m in Sources */,
+				40DD99DC1F286EFB00BA5BE1 /* UserIdentification+CoreDataClass.m in Sources */,
 				81AFD91E1CFEB7F90023BD63 /* NSObject+PropertySupport.m in Sources */,
 				B5B356561D5352B400AB4752 /* CollectionViewCell.m in Sources */,
 				81AFD8F31CFEB7CE0023BD63 /* NSString+Serialize.m in Sources */,
@@ -1776,6 +1793,7 @@
 				81C675A51CB4CDF1001113C6 /* ChartsViewController.m in Sources */,
 				81AFD9021CFEB7E30023BD63 /* NSObject+SBJSON.m in Sources */,
 				4747468E1CFEE4EA007F9BDD /* ChapterResultSaveButtonCell.m in Sources */,
+				40DD99DD1F286EFB00BA5BE1 /* UserIdentification+CoreDataProperties.m in Sources */,
 				81AFD8F01CFEB7CE0023BD63 /* NSDate+Serialize.m in Sources */,
 				B546D6651CEB41390018CA7D /* DripRateResultCell.m in Sources */,
 				B5C6B55F1CEC399200D483B8 /* MinutesRemainingInputCell.m in Sources */,
