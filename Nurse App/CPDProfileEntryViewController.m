@@ -293,6 +293,16 @@
     NSLog(@"cancelButtonClciked");
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+// Check if the NSDictionary is empty
+-(BOOL)isEmpty: (int)checkThis{
+    if (checkThis == 1) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 -(void)saveButtonClciked{
     NSLog(@"saveButtonClciked");
     DBFunctions* dBFunctions=[[DBFunctions alloc] init];
@@ -303,7 +313,7 @@
     }else{
         NSLog(@"data saved");
         // Do the validation now - check if user's identification has been saved in the core data
-        BOOL hasId = true;
+        BOOL hasId = [self isEmpty:1];
                 
         if (hasId) {
             // Pop up an alert to ask user's identification such as email address
