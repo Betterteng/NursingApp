@@ -26,4 +26,20 @@
     return userIdentificationEntity;
 }
 
++ (BOOL)checkIsEmpty
+{
+    AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"UserIdentification"];
+    NSError *error = nil;
+    NSArray *results = [context executeFetchRequest:request error:&error];
+    
+    if ([results count] == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 @end

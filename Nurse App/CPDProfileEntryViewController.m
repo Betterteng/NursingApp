@@ -295,13 +295,19 @@
 }
 
 // Check if the NSDictionary is empty
--(BOOL)isEmpty: (int)checkThis{
-    if (checkThis == 1) {
-        return true;
-    } else {
-        return false;
-    }
-}
+//-(BOOL)isEmpty{
+//    if ([UserIdentification ] > 0) {
+//        NSLog(@"$$$$$$$$$$$$$$$$$$$$");
+//        NSLog(@"%@", UserIdentification.description);
+//        NSLog(@"$$$$$$$$$$$$$$$$$$$$");
+//        return true;
+//    } else {
+//        NSLog(@"#####################");
+//        NSLog(@"%@", UserIdentification.description);
+//        NSLog(@"#####################");
+//        return false;
+//    }
+//}
 
 -(void)saveButtonClciked{
     NSLog(@"saveButtonClciked");
@@ -313,7 +319,7 @@
     }else{
         NSLog(@"data saved");
         // Do the validation now - check if user's identification has been saved in the core data
-        BOOL hasId = [self isEmpty:1];
+        BOOL hasId = [UserIdentification checkIsEmpty];
                 
         if (hasId) {
             // Pop up an alert to ask user's identification such as email address
