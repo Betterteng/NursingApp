@@ -42,4 +42,10 @@
     }
 }
 
++ (NSString*)getUserId
+{
+    NSString *userId = @"d";
+    return userId;
+}
+
 @end

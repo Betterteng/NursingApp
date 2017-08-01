@@ -11,4 +11,5 @@
 @interface UserIdentification (Add)
 + (UserIdentification *)addUserInfoFromDictionary:(NSDictionary *) userInfo;
 + (BOOL)checkIsEmpty;
++ (NSString*)getUserId;
 @end

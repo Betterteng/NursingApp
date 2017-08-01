@@ -284,30 +284,10 @@
     
 }
 
-//-(void)addToDatabase:(NSString*) userIdentity{
-//    NSDictionary *userInfo = @{@"userId": userIdentity};
-//    [UserIdentification addUserInfoFromDictionary:userInfo];
-//}
-
 -(void)cancelButtonClciked{
     NSLog(@"cancelButtonClciked");
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-// Check if the NSDictionary is empty
-//-(BOOL)isEmpty{
-//    if ([UserIdentification ] > 0) {
-//        NSLog(@"$$$$$$$$$$$$$$$$$$$$");
-//        NSLog(@"%@", UserIdentification.description);
-//        NSLog(@"$$$$$$$$$$$$$$$$$$$$");
-//        return true;
-//    } else {
-//        NSLog(@"#####################");
-//        NSLog(@"%@", UserIdentification.description);
-//        NSLog(@"#####################");
-//        return false;
-//    }
-//}
 
 -(void)saveButtonClciked{
     NSLog(@"saveButtonClciked");
@@ -323,7 +303,6 @@
                 
         if (hasId) {
             // Pop up an alert to ask user's identification such as email address
-            NSLog(@"********************************");
             UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"User Identification Needed"
                                                                                      message:@"This alert won't show up again after the identification has been saved."
                                                                                      preferredStyle:UIAlertControllerStyleAlert];
@@ -332,22 +311,32 @@
                 textField.placeholder = @"Type your userID correctly.";
                 textField.secureTextEntry = nil;
             }];
-            // Extract user input from textField
+            /*
+             Extract user input from textField 
+             + save userId and CPD info to database 
+             + pack Json + send Json 
+             + go back to previous level
+             */
             UIAlertAction* saveAction = [UIAlertAction actionWithTitle:@"SAVE" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
-                                            NSString *userInput = ((UITextField *)[alertController.textFields objectAtIndex:0]).text;
-                                            // Save userId to core data - [UserIdentification]
-                                            NSDictionary *userInfo = @{@"userId": userInput};
-                                            [UserIdentification addUserInfoFromDictionary:userInfo];
+                // Extract user input from textField
+                NSString *userInput = ((UITextField *)[alertController.textFields objectAtIndex:0]).text;
+                // Save userId to core data - [UserIdentification]
+                NSDictionary *userInfo = @{@"userId": userInput};
+                [UserIdentification addUserInfoFromDictionary:userInfo];
                                                                    
-                                            NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
-                                            NSLog(@"%@", userInput);
-                                            NSLog(@"%@", [UserIdentification addUserInfoFromDictionary:userInfo].description);
+                NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
+                // Pack Json file
+                NSData *jsonData = [self packJSON:userInput];
+                // Convert JSON into NSString to check it on the output panel
+                NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+                NSLog(@"%@", newStr);
+                NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
                 
-                                            // Stroe CPD portfolio into core data
-                                            [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
-                                            // Go back to previous level screen
-                                            [self.navigationController popViewControllerAnimated:YES];
-                                        }];
+                // Stroe CPD portfolio into core data
+                [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
+                // Go back to previous level screen
+                [self.navigationController popViewControllerAnimated:YES];
+                }];
             UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"CANCEL" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];
             // Add actions to the alert
             [alertController addAction:saveAction];
@@ -357,25 +346,36 @@
         } else {
             // Collect user's input and ready to form a JSON file
             NSLog(@"********************************");
-            NSDictionary *jsonReady = [NSDictionary dictionaryWithObjectsAndKeys:
-                                       self.valueTitle, @"Title",
-                                       self.valueNotes, @"Notes",
-                                       self.valueDate, @"Date",
-                                       self.valueDuration, @"Duration",
-                                       nil];
-            NSError *error;
-            // Generate the JSON data
-            NSData* jsonData = [NSJSONSerialization dataWithJSONObject:jsonReady options:NSJSONWritingPrettyPrinted error:&error];
-            // Convert JSON into NSString
+            NSData* jsonData = [self packJSON:@"Oscar6666666677777778888888"];
+            
+            // Convert JSON into NSString to check it on the output panel
             NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
             NSLog(@"%@", newStr);
             NSLog(@"********************************");
+            
+            
             // Save CPD portfolio to core data
             [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
             // Go back to the previous screen
             [self.navigationController popViewControllerAnimated:YES];
         }
     }
+}
+
+// Pack Json file
+- (NSData*)packJSON:(NSString *)userId{
+    // Collect user's input and ready to form a JSON file
+    NSDictionary *jsonReady = [NSDictionary dictionaryWithObjectsAndKeys:
+                               userId, @"UserId",
+                               self.valueTitle, @"Title",
+                               self.valueNotes, @"Notes",
+                               self.valueDate, @"Date",
+                               self.valueDuration, @"Duration",
+                               nil];
+    NSError *error;
+    // Generate the JSON data
+    NSData* jsonData = [NSJSONSerialization dataWithJSONObject:jsonReady options:NSJSONWritingPrettyPrinted error:&error];
+    return jsonData;
 }
 
 - (void)didReceiveMemoryWarning {
