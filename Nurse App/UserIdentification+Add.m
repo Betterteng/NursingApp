@@ -11,7 +11,6 @@
 
 @implementation UserIdentification (Add)
 
-
 + (UserIdentification *)addUserInfoFromDictionary:(NSDictionary *) userInfo
 {
     AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
@@ -44,7 +43,14 @@
 
 + (NSString*)getUserId
 {
-    NSString *userId = @"d";
+    AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"UserIdentification"];
+    NSError *error = nil;
+    NSArray *results = [context executeFetchRequest:request error:&error];
+
+    NSString *userId = [[results valueForKey:@"userId"] lastObject];
     return userId;
 }
 

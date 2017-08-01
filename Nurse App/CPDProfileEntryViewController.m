@@ -346,13 +346,13 @@
         } else {
             // Collect user's input and ready to form a JSON file
             NSLog(@"********************************");
-            NSData* jsonData = [self packJSON:@"Oscar6666666677777778888888"];
+            NSString *userId = [UserIdentification getUserId];
+            NSData* jsonData = [self packJSON:userId];
             
             // Convert JSON into NSString to check it on the output panel
             NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
             NSLog(@"%@", newStr);
             NSLog(@"********************************");
-            
             
             // Save CPD portfolio to core data
             [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
