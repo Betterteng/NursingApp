@@ -354,6 +354,9 @@
             NSLog(@"%@", newStr);
             NSLog(@"********************************");
             
+            // Send CPD portfolio to server
+            [self postRequest:newStr];
+            
             // Save CPD portfolio to core data
             [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
             // Go back to the previous screen
@@ -362,8 +365,80 @@
     }
 }
 
+//// Send JSON to server
+//- (void) httpPostRequest:(NSString *)cpdPortfolio {
+//    NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[cpdPortfolio length]];
+//    
+//    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+//    [request setURL:[NSURL URLWithString:@"http://www.remedyportal.io/addcpd.php"]];
+//    
+//    [request setHTTPMethod:@"POST"];
+//    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+//    [request setHTTPBody:[cpdPortfolio dataUsingEncoding:NSUTF8StringEncoding]];
+//    
+//    [NSURLConnection sendAsynchronousRequest:request
+//     queue:[NSOperationQueue mainQueue]
+//     completionHandler:^(NSURLResponse *r, NSData *data, NSError *error)
+//     {
+//         if (!data){
+//             NSLog(@"No data returned from server, error ocurred: %@", error);
+//             NSString *userErrorText = [NSString stringWithFormat:@"Error communicating with server: %@", error.localizedDescription];
+//             return;
+//        }
+//         
+//         NSLog(@"got the NSData fine. here it is...\n%@\n", data);
+//         NSLog(@"next step, deserialising");
+//         
+//         NSError *deserr;
+//         NSDictionary *responseDict = [NSJSONSerialization
+//                                       JSONObjectWithData:data
+//                                       options:kNilOptions
+//                                       error:&deserr];
+//         
+//         NSLog(@"so, here's the responseDict\n\n\n%@\n\n\n", responseDict);
+//
+//     }];
+//}
+
+// Send JSON to server
+- (void) postRequest:(NSString *)cpdPortfolio{
+    // Create a new NSMutableURLRequest
+    NSMutableURLRequest *req = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://www.remedyportal.io/addcpd.php"]];
+    [req setHTTPMethod:@"POST"];
+    // Convert the String to NSData
+    NSData *postData = [cpdPortfolio dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    // Set the content length and http body
+    NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+    [req addValue:postLength forHTTPHeaderField:@"Content-Length"];
+    [req setHTTPBody:postData];
+    // Create an NSURLSession
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *task = [session dataTaskWithRequest:req
+                                            completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                                                // Do something with response data here - convert to JSON, check if error exists, etc....
+                                                if (!data) {
+                                                    NSLog(@"No data returned from the sever, error occured: %@", error);
+                                                    return;
+                                                }
+                                                
+                                                NSLog(@"got the NSData fine. here it is...\n%@\n", data);
+                                                NSLog(@"next step, deserialising");
+                                                
+                                                NSError *deserr;
+                                                NSDictionary *responseDict = [NSJSONSerialization
+                                                                              JSONObjectWithData:data
+                                                                              options:kNilOptions
+                                                                              error:&deserr];
+                                                NSLog(@"so, here's the responseDict\n\n\n%@\n\n\n", responseDict);
+                                            }];
+    
+    [task resume];
+}
+
 // Pack Json file
-- (NSData*)packJSON:(NSString *)userId{
+- (NSData*)packJSON:(NSString *)userId {
     // Collect user's input and ready to form a JSON file
     NSDictionary *jsonReady = [NSDictionary dictionaryWithObjectsAndKeys:
                                userId, @"UserId",
