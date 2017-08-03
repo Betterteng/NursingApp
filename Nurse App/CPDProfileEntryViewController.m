@@ -304,11 +304,11 @@
         if (hasId) {
             // Pop up an alert to ask user's identification such as email address
             UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"User Identification Needed"
-                                                                                     message:@"This alert won't show up again after the identification has been saved."
+                                                                                     message:@"This alert will no longer appear after the identification has been saved."
                                                                                      preferredStyle:UIAlertControllerStyleAlert];
             // Add a textField to the alert
             [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField){
-                textField.placeholder = @"Type your userID correctly.";
+                textField.placeholder = @"Type your email correctly.";
                 textField.secureTextEntry = nil;
             }];
             /*
@@ -331,7 +331,8 @@
                 NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
                 NSLog(@"%@", newStr);
                 NSLog(@"_+_+_+_+_+_+_+_+_+_+_+");
-                
+                // Send CPD portfolio to server
+                [self postRequest:newStr];
                 // Stroe CPD portfolio into core data
                 [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
                 // Go back to previous level screen
@@ -348,16 +349,13 @@
             NSLog(@"********************************");
             NSString *userId = [UserIdentification getUserId];
             NSData* jsonData = [self packJSON:userId];
-            
             // Convert JSON into NSString to check it on the output panel
             NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
             NSLog(@"%@",jsonData.description);
             NSLog(@"%@", newStr);
             NSLog(@"********************************");
-            
             // Send CPD portfolio to server
             [self postRequest:newStr];
-            
             // Save CPD portfolio to core data
             [dBFunctions addCPDEntryInDbWithTitle:self.valueTitle notes:self.valueNotes date:self.valueDate duration:self.valueDuration];
             // Go back to the previous screen
