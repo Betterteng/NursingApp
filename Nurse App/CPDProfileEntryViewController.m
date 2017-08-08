@@ -303,8 +303,8 @@
                 
         if (hasId) {
             // Pop up an alert to ask user's identification such as email address
-            UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"User Identification Needed"
-                                                                                     message:@"This alert will no longer appear after the identification has been saved."
+            UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"Email Address Needed"
+                                                                                     message:@"This alert will no longer appear after your email address has been saved."
                                                                                      preferredStyle:UIAlertControllerStyleAlert];
             // Add a textField to the alert
             [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField){
