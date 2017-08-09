@@ -1538,7 +1538,7 @@
 				TargetAttributes = {
 					814A7D721CA8E2E800A171A7 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = H3S7TS62JU;
+						DevelopmentTeam = 3552453W3H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1931,7 +1931,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H3S7TS62JU;
+				DEVELOPMENT_TEAM = 3552453W3H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1939,7 +1939,7 @@
 				INFOPLIST_FILE = "Nurse App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.criticalsecond;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adtalk.criticalsecond;
 				PRODUCT_NAME = "Complete Nurse Testing";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1954,7 +1954,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H3S7TS62JU;
+				DEVELOPMENT_TEAM = 3552453W3H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1962,7 +1962,7 @@
 				INFOPLIST_FILE = "Nurse App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.criticalsecond;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adtalk.criticalsecond;
 				PRODUCT_NAME = "Complete Nurse Testing";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
