@@ -23,6 +23,16 @@
     
 }
 
+- (IBAction)cancelButtonClicked:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)saveButtonClicked:(id)sender {
+    self.selectedNotes=self.notesTextView.text;
+    self.cPDProfileEntryViewController.valueNotes=self.selectedNotes;
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 -(void)createNavigationBar
 {
     //hide back button

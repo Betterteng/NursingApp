@@ -11,7 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextViewController">
             <connections>
+                <outlet property="cancelButton" destination="bQE-BJ-bOv" id="8uC-W9-IMh"/>
                 <outlet property="notesTextView" destination="sal-2H-fFM" id="vYd-hq-d5k"/>
+                <outlet property="saveButton" destination="2v4-uo-ga0" id="jLG-k5-NOe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -24,7 +26,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPD Note Entry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80R-hQ-ydy">
-                    <rect key="frame" x="88.5" y="108" width="198" height="52"/>
+                    <rect key="frame" x="89" y="74" width="198" height="52"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="52" id="ZuA-G9-YNg"/>
                     </constraints>
@@ -33,7 +35,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sal-2H-fFM">
-                    <rect key="frame" x="15" y="200" width="345" height="269"/>
+                    <rect key="frame" x="15" y="141" width="345" height="269"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="269" id="1DG-Eg-skR"/>
@@ -42,23 +44,52 @@
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQE-BJ-bOv" userLabel="cancelButton">
+                    <rect key="frame" x="16" y="428" width="140" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="Bkz-TB-hyp"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="hmH-Me-jDQ"/>
+                        <constraint firstAttribute="width" constant="140" id="xzK-xw-JHf"/>
+                    </constraints>
+                    <state key="normal" image="CancleButton"/>
+                    <connections>
+                        <action selector="cancelButtonClicked:" destination="-1" eventType="touchUpInside" id="Cd5-00-wFd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v4-uo-ga0" userLabel="saveButton">
+                    <rect key="frame" x="219" y="428" width="140" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="Edo-4c-Skr"/>
+                        <constraint firstAttribute="height" constant="51" id="d3y-N4-RW0"/>
+                    </constraints>
+                    <state key="normal" image="SaveButton"/>
+                    <connections>
+                        <action selector="saveButtonClicked:" destination="-1" eventType="touchUpInside" id="NuM-Lh-c6K"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="lrZ-RK-HyJ" secondAttribute="bottom" id="0o9-pN-MRV"/>
+                <constraint firstAttribute="trailing" secondItem="lrZ-RK-HyJ" secondAttribute="trailing" id="0jY-EJ-G1U"/>
+                <constraint firstItem="lrZ-RK-HyJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Bo5-Lj-Ilf"/>
                 <constraint firstItem="sal-2H-fFM" firstAttribute="leading" secondItem="lrZ-RK-HyJ" secondAttribute="leading" constant="15" id="Dg2-tr-JcZ"/>
-                <constraint firstItem="sal-2H-fFM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Em8-1P-jfW"/>
-                <constraint firstAttribute="trailing" secondItem="sal-2H-fFM" secondAttribute="trailing" constant="15" id="HUp-18-Xa2"/>
+                <constraint firstItem="2v4-uo-ga0" firstAttribute="top" secondItem="bQE-BJ-bOv" secondAttribute="top" id="GbC-MN-7l3"/>
+                <constraint firstItem="80R-hQ-ydy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="H09-eN-C2u"/>
                 <constraint firstItem="sal-2H-fFM" firstAttribute="trailing" secondItem="lrZ-RK-HyJ" secondAttribute="trailing" constant="-15" id="SK8-Ho-N7b"/>
-                <constraint firstItem="lrZ-RK-HyJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZNz-Dm-CIQ"/>
-                <constraint firstItem="sal-2H-fFM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="d92-Y3-KFz"/>
-                <constraint firstItem="sal-2H-fFM" firstAttribute="top" secondItem="80R-hQ-ydy" secondAttribute="bottom" constant="40" id="kdj-cO-Hgd"/>
+                <constraint firstItem="lrZ-RK-HyJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WYk-Q1-hHb"/>
+                <constraint firstAttribute="trailing" secondItem="2v4-uo-ga0" secondAttribute="trailing" constant="16" id="cJJ-Pm-JAx"/>
+                <constraint firstItem="sal-2H-fFM" firstAttribute="top" secondItem="80R-hQ-ydy" secondAttribute="bottom" constant="15" id="kdj-cO-Hgd"/>
+                <constraint firstItem="bQE-BJ-bOv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="mae-ba-LDG"/>
+                <constraint firstItem="bQE-BJ-bOv" firstAttribute="top" secondItem="sal-2H-fFM" secondAttribute="bottom" constant="18" id="qNw-4q-JiH"/>
                 <constraint firstItem="80R-hQ-ydy" firstAttribute="centerX" secondItem="sal-2H-fFM" secondAttribute="centerX" id="yfJ-Ty-sgE"/>
+                <constraint firstAttribute="bottom" secondItem="lrZ-RK-HyJ" secondAttribute="bottom" id="zW0-15-Vxd"/>
             </constraints>
             <point key="canvasLocation" x="35.5" y="54.5"/>
         </view>
     </objects>
     <resources>
+        <image name="CancleButton" width="162" height="51"/>
         <image name="ChartTableBackground" width="360" height="640"/>
+        <image name="SaveButton" width="162" height="51"/>
     </resources>
 </document>

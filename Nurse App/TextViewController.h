@@ -14,5 +14,7 @@
 @property (strong, nonatomic) NSString* selectedNotes;
 @property (strong, nonatomic) CPDProfileEntryViewController* cPDProfileEntryViewController;
 
+@property (strong, nonatomic) IBOutlet UIButton *cancelButton;
+@property (strong, nonatomic) IBOutlet UIButton *saveButton;
 
 @end
